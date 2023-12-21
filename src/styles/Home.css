@@ -44,7 +44,7 @@ body,html {
 .home img {
   margin-top: 100px;
   border-radius: 50%;
-  width: 100%; /* Adjust image width to fit the container */
+  width: 100%; 
   max-width: 350px; 
   height: auto; 
   border: 6px solid black;
@@ -104,6 +104,11 @@ body,html {
 
   .resume .arrow {
     align-self: start;
+  }
+
+  .home img {
+    width: 80%;
+    align-items: center;
   }
 }
 

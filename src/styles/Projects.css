@@ -1,13 +1,11 @@
 body {
-    font-size: large;
-    font-weight: bolder;
     margin: 0;
     padding: 0;
   }
   
   .projects {
     background-color: #25272d;
-    padding: 20px;
+    padding: 2rem;
     color: white;
     text-align: center;
   }

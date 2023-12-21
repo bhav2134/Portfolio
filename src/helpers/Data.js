@@ -148,6 +148,7 @@ const Languages = [
       imageSrc: stocks,
       url: 'https://github.com/bhav2134/Stock-Analysis',
     },
+    
   ];
 
   export { Languages,Databses,Frameworks,clouds,others, projects };
