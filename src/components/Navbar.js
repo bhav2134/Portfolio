@@ -8,6 +8,10 @@ function Navbar() {
 
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   const closeMenu = () => {
     setMenuOpen(false);
   };
@@ -24,15 +28,12 @@ function Navbar() {
       >
         b. 
       </Link>
-      <div className="menu" onClick={() => {
-        setMenuOpen(!menuOpen)
-      }}>
+      <div className="menu" onClick={toggleMenu}>
         <span></span>
         <span></span>
         <span></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
-        <button className="close-btn" onClick={closeMenu}>X</button>
         <li>
         <Link to="about" smooth={true} offset={-70} duration={100} onClick={closeMenu}>
           About

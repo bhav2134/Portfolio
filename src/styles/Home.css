@@ -1,9 +1,10 @@
-body {
+body,html {
   background-color: moccasin;
   font-size: large;
   font-weight: bolder;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .text {

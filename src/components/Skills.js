@@ -6,7 +6,7 @@ import { Languages,Databses,Frameworks,clouds,others, projects } from '../helper
 
 function Skills() {
   return (
-    <Element id="skills" className='skills'>
+    <div id="skills" className='skills'>
       <h1 className='title'>Skills</h1>
       <h2>Languages</h2>
         <div className="skills-section">
@@ -38,7 +38,7 @@ function Skills() {
           <Skillscard key={index} {...skills} />
         ))}
         </div>
-    </Element>
+    </div>
 
     
   )

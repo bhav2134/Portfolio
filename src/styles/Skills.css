@@ -1,26 +1,21 @@
 body {
-    font-size: large;
-    font-weight: bolder;
-    margin: 0;
-    padding: 0;
-  }
-
-.skills-section {
-    display: flex;
-    justify-content:center;
-    gap: 50px;
-    flex-wrap: wrap;
-    margin-bottom: 100px;
+  font-size: 1rem; /* Use relative font size for better responsiveness */
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
 }
 
-.database-section {
+.skills-section, .database-section {
   display: flex;
-  justify-content:center;
-  gap: 50px;
+  justify-content: center;
+  gap: 5vw; /* Use a percentage for better responsiveness */
   flex-wrap: wrap;
-  margin-bottom: 100px;
+  margin-bottom: 10vh; /* Adjust margin based on your design */
 }
 
-
-
-
+/* Add media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .skills-section, .database-section {
+      gap: 5%; 
+  }
+}
