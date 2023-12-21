@@ -1,0 +1,26 @@
+body {
+    font-size: large;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+  }
+
+.skills-section {
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.database-section {
+  display: flex;
+  justify-content:center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+
+
+

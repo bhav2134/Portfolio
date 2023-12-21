@@ -1,0 +1,113 @@
+html, body {
+  font-size: large;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 228, 181, 0.9);
+  padding: 10px 20px; 
+  animation: slideDown 1s ease; 
+  
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.site-title {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 2.5px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 20px;
+}
+
+li:last-child {
+  margin-right: 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-shadow: 2px 2px #38c172;
+  transition: 0.3s;
+}
+
+.content {
+  padding-top: 100px; /* Adjust the value based on the navbar height */
+}
+
+nav .menu {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 3rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+
+.close-btn {
+  display: none; /* Hide the close button by default */
+}
+
+nav .menu span {
+  height: 5px;
+  width: 100%;
+  background-color: black;
+  border-radius: 0.2rem;
+}
+
+
+
+@media (max-width: 480px) {
+
+  @keyframes slideleft {
+    from {
+      transform: translateX(-100%); /* Start off-screen to the left */
+    }
+    to {
+      transform: translateX(0); /* Slide in to the right */
+    }
+  }
+
+  @keyframes slideright {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}

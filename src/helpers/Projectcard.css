@@ -1,0 +1,29 @@
+.project-card {
+    border-radius: 25px;
+    width: 350px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: box-shadow 0.3s ease-in, transform 0.3s ease;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(56,193,114,1) 100%);
+    color: black;
+  }
+
+  .project-title {
+    font-size: large;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0px 3px 15px rgb(56, 193, 114);
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+
+  .project-card img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+  }

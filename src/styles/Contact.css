@@ -1,0 +1,46 @@
+.contact-me {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .letconnect {
+    font-size: 2em;
+  }
+  
+  .giticon,
+  .linkedicon {
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000; 
+    font-size: 25px;
+  }
+  
+
+  .linkedicon:hover {
+    color: #0366d6;
+    text-shadow: none;
+    transform: scale(1.1);
+  }
+
+  .giticon:hover {
+    color: 	#fafbfc;
+    text-shadow: none;
+    transform: scale(1.1);
+  }
+  
+  .giticon span,
+  .linkedicon span {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.8em;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  .email {
+    font-size: 30px;
+  }

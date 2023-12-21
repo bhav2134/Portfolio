@@ -1,0 +1,47 @@
+import React from 'react';
+import '../styles/Skills.css';
+import Skillscard from '../helpers/Skillscard';
+import { Element } from "react-scroll";
+import { Languages,Databses,Frameworks,clouds,others, projects } from '../helpers/Data';
+
+function Skills() {
+  return (
+    <Element id="skills" className='skills'>
+      <h1 className='title'>Skills</h1>
+      <h2>Languages</h2>
+        <div className="skills-section">
+          {Languages.map((skills, index) => (
+          <Skillscard key={index} {...skills} />
+        ))}
+        </div>
+        <h2>Databses</h2>
+        <div className="database-section">
+          {Databses.map((skills, index) => (
+          <Skillscard key={index} {...skills} />
+        ))}
+        </div>
+        <h2>Frameworks</h2>
+        <div className="database-section">
+          {Frameworks.map((skills, index) => (
+          <Skillscard key={index} {...skills} />
+        ))}
+        </div>
+        <h2>Clouds</h2>
+        <div className="database-section">
+          {clouds.map((skills, index) => (
+          <Skillscard key={index} {...skills} />
+        ))}
+        </div>
+        <h2>Others</h2>
+        <div className="database-section">
+          {others.map((skills, index) => (
+          <Skillscard key={index} {...skills} />
+        ))}
+        </div>
+    </Element>
+
+    
+  )
+}
+
+export default Skills

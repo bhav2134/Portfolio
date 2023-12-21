@@ -1,0 +1,108 @@
+body {
+  background-color: moccasin;
+  font-size: large;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  text-align: center;
+  padding-left: 15px; /* Adjust padding for smaller screens */
+  padding-right: 15px; /* Adjust padding for smaller screens */
+  margin-bottom: 50px;
+  margin-top: -70px;
+  position: relative;
+  z-index: 1;
+  text-shadow: 2px 2px #38c172;
+  font-size: 50px;
+  transition: background-color 5s ease;
+  animation: slideSide 2s ease; 
+}
+
+.intro {
+  margin-top: -40px; /* Adjust the margin-top value as needed */
+  margin-bottom: 10px; /* Adjust the margin-bottom value as needed */
+  text-align: center;
+  text-shadow: 2px 2px #38c172;
+  transition: background-color 5s ease;
+  animation: slideSide 2s ease; 
+  padding-bottom: 20px;
+}
+
+.text .name-color {
+  color: #38c172;
+  text-shadow: 2px 2px white;
+}
+
+
+.home {
+  position: relative; /* Set position to relative for child positioning */
+}
+
+.home img {
+  margin-top: 100px;
+  border-radius: 50%;
+  width: 100%; /* Adjust image width to fit the container */
+  max-width: 350px; 
+  height: auto; 
+  border: 6px solid black;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.5); /* Add a subtle box shadow */
+  animation: slideIn 2s;
+  position: relative;
+}
+
+.home img:hover {
+  border-color: #38c172;
+  transition: all 0.5s; 
+}
+
+@keyframes slideSide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .home {
+    height: 100vh;
+  }
+
+  .text {
+    padding-top: 80px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 30px;
+  }
+
+  .intro {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+  }
+
+  .resume {
+    bottom: 0;
+    padding-bottom: 30px;
+    font-size: 30px;
+  }
+
+  .resume .arrow {
+    align-self: start;
+  }
+}
+
