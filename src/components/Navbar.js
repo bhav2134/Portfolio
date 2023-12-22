@@ -27,9 +27,9 @@ function Navbar() {
         b. 
       </Link>
       <div className="menu" onClick={toggleMenu}>
-        <span></span>
-        <span></span>
-        <span></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
