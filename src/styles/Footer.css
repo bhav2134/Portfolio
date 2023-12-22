@@ -1,14 +1,13 @@
 .footer {
-    font-weight: 1000;
+    font-weight: 100;
 }
 
 .footer-line {
-  border-top: 1px solid black; /* Adjust the color of the line */
+  border-top: 1px solid black; 
 }
 
 @media screen and (max-width: 600px) {
-    /* Adjust styles for screens with a maximum width of 600 pixels */
     .footer {
-      white-space: normal; /* Allow text to wrap onto multiple lines */
+      white-space: normal; 
     }
   }

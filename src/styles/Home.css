@@ -9,14 +9,14 @@ body,html {
 
 .text {
   text-align: center;
-  padding-left: 15px; /* Adjust padding for smaller screens */
-  padding-right: 15px; /* Adjust padding for smaller screens */
+  padding-left: 1em; 
+  padding-right: 1em; 
   margin-bottom: 50px;
-  margin-top: -70px;
+  margin-top: -80px;
   position: relative;
   z-index: 1;
   text-shadow: 2px 2px #38c172;
-  font-size: 50px;
+  font-size: 2.5rem;
   transition: background-color 5s ease;
   animation: slideSide 2s ease; 
 }
@@ -42,13 +42,14 @@ body,html {
 }
 
 .home img {
-  margin-top: 100px;
+  margin-top: 6em;
   border-radius: 50%;
   width: 100%; 
   max-width: 350px; 
+  object-fit: cover;
   height: auto; 
   border: 6px solid black;
-  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.5); /* Add a subtle box shadow */
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5); /* Add a subtle box shadow */
   animation: slideIn 2s;
   position: relative;
 }
