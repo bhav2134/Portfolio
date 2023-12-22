@@ -14,8 +14,10 @@ body {
 }
 
 /* Add media query for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+  
   .skills-section, .database-section {
-      gap: 5%; 
+      gap: 10vw; 
+      
   }
 }

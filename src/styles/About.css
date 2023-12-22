@@ -1,17 +1,17 @@
 body,html {
     margin: 0;
     padding: 0;
-    overflow: visible;
+    overflow: auto;
   }
 
-  
   .about {
     margin-top: 10vh;
     background-color: hsl(225, 10%, 16%);
     padding-top: 1rem;
     color: white;
-    height: 100vh;
+    height: 100%;
     animation: slideIn 1s;
+    padding-bottom: 5vw;
   }
   
   .header {
@@ -48,13 +48,11 @@ body,html {
       padding-right: 5vw; 
       padding-top: 30px;
       font-size: 1.5em; 
-      padding-bottom: -10px;
     }
 
     .thrive {
       padding-left: 5vw; 
       padding-right: 5vw; 
       font-size: 1.5em; 
-      padding-bottom: 20px;
     }
   }

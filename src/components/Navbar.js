@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import '../styles/Navbar.css';
-import { FaArrowRight } from "react-icons/fa";
-
 
 function Navbar() {
 

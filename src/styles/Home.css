@@ -80,7 +80,7 @@ body,html {
 @media screen and (max-width: 480px) {
 
   .home {
-    height: 100vh;
+    height: 100%;
   }
 
   .text {
