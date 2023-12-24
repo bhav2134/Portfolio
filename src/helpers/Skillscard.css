@@ -1,7 +1,7 @@
 .skills-card {
-    width: 120px; /* Adjust the width as needed */
-    height: 160px;
-    border: 5px solid black; /* Add a border if desired */
+    width: 8em; /* Adjust the width as needed */
+    height: 10em;
+    border: 0.1em solid black; /* Add a border if desired */
     border-radius: 8px;
     padding: 5px;
     padding-bottom: 0px;
