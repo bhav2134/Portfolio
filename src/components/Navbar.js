@@ -48,6 +48,11 @@ function Navbar() {
           </Link>
         </li>
         <li>
+          <Link to="certifications" spy={true} smooth={true}  offset={-70} duration={100} onClick={closeMenu}>
+            Certificates
+          </Link>
+        </li>
+        <li>
           <Link to="contact" spy={true} smooth={true} offset={-10} duration={100} onClick={closeMenu}>
             Contact
           </Link>

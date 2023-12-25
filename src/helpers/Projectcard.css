@@ -1,33 +1,36 @@
 .project-card {
-    border: 0.5em solid white;
     border-radius: 1em;
     overflow: hidden;
     background-color: inherit;
-    width: 20em;
+    width: 22em;
+    height: 20em;
     margin-bottom: 3rem;
+    background: linear-gradient(343deg, rgba(34,193,195,1) 0%, rgba(241,251,34,1) 100%);
+    border: 0.2em solid black;
+    transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
 .project-title {
-    color: white;
-    text-decoration: none !important;
+    color: black;
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 10px;
 }
 
 .description {
-    color: white;
+    color: black;
 }
 
 .project-card img {
     width: 100%;
-    height: auto;
+    height: 60%;
     display: block;
 }
 
 .project-card:hover {
-    box-shadow: 0px 3px 15px rgb(56, 193, 114);
     cursor: pointer;
     transform: translateY(-5px);
-    transition: 0.3s;
-    border-color: rgb(56, 193, 114);
+    border-color: #22b05d;
 }
 
 a {
@@ -36,6 +39,11 @@ a {
 
 @media (max-width: 480px) {
     .project-card {
-        width: 15em;
+        width: 16em;
+        height: auto;
+    }
+
+    .project-card img {
+        height: 20%;
     }
 }

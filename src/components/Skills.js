@@ -1,8 +1,7 @@
 import React from 'react';
 import '../styles/Skills.css';
 import Skillscard from '../helpers/Skillscard';
-import { Element } from "react-scroll";
-import { Languages,Databses,Frameworks,clouds,others, projects } from '../helpers/Data';
+import { Languages,Databses,Frameworks,clouds,others, projects,certificates } from '../helpers/Data';
 
 function Skills() {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Projects.css';
 import Projectcard from '../helpers/Projectcard';
 import { Link, Element } from "react-scroll";
-import { Languages, Databases, Frameworks, Clouds, Others, projects } from '../helpers/Data';
+import { Languages, Databases, Frameworks, Clouds, Others, projects,certificates } from '../helpers/Data';
 
 function Projects() {
   const handleclick = (url) => {
@@ -10,7 +10,7 @@ function Projects() {
   };
 
   return (
-    <Element id="projects" className='projects'>
+    <div id="projects" className='projects'>
       <h1 className='title'>Featured Projects</h1>
       <div className="project-section">
         {projects.map((project, index) => (
@@ -25,7 +25,7 @@ function Projects() {
           </a>
         ))}
       </div>
-    </Element>
+    </div>
   );
 }
 

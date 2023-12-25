@@ -25,6 +25,8 @@ import git from '../assets/git.png';
 import github from '../assets/github.png';
 import rust from '../assets/rust.png';
 import typescript from '../assets/typescript.png';
+import CS50 from '../assets/CS50.png';
+import freecodecamppython from '../assets/Freecodecamp certificate.png';
 
 const Languages = [
     {
@@ -148,7 +150,19 @@ const Languages = [
       imageSrc: stocks,
       url: 'https://github.com/bhav2134/Stock-Analysis',
     },
-    
   ];
 
-  export { Languages,Databses,Frameworks,clouds,others, projects };
+  const certificates = [
+    {
+      title: 'Harvard CS50x: Introduction to programming',
+      imageSrc: CS50,
+      description: 'Languages & Tools Learned: C, Python, SQL, HTML, CSS, JavaScript, Flask (Python web framework), Scratch, Git',
+    },
+    {
+      title: 'Scientific Computing with python',
+      imageSrc: freecodecamppython,
+      description: 'Languages & Tools Learned: Python, NumPy, Pandas, Matplotlib, SciPy, SymPy, Jupyter Notebooks',
+    },
+  ]
+
+  export { Languages,Databses,Frameworks,clouds,others, projects, certificates };

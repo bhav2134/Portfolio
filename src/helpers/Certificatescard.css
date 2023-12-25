@@ -1,0 +1,38 @@
+.certificate {
+    display: grid;
+    border: 0.2em solid black;
+    width: 25em;
+}
+
+.certificate img {
+    width: 25em;
+    height: auto;
+}
+
+.certificate-name {
+    width: 20em;
+    overflow-wrap: break-word;
+}
+
+
+
+@media (max-width: 480px) {
+
+    .certificate {
+        width: 15em;
+    }
+
+    .certificate img {
+        width: 15em;
+    }
+
+    .certificate-name {
+        width: 13em;
+    }
+
+    .certificate-description {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

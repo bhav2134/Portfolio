@@ -18,7 +18,7 @@ const Projectcard = ({ title, description, imageSrc, url, onClick }) => {
       <div className='project-card'>
         <img src={imageSrc} alt={title} />
         <h2 className='project-title'>{title}</h2>
-        <p className='description'>{description}</p>
+        <h3 className='description'>{description}</h3>
       </div>
     </a>
   );
