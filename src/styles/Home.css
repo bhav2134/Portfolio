@@ -49,7 +49,7 @@ body,html {
   object-fit: cover;
   height: auto; 
   border: 6px solid black;
-  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5); 
+  box-shadow: 16px 4px 8px rgba(0, 0, 0, 0.2);
   animation: slideIn 2s;
   position: relative;
 }
@@ -89,6 +89,7 @@ body,html {
     padding-left: 10px; 
     padding-right: 10px; 
     font-size: 30px;
+    margin-bottom: 1em;
   }
 
   .intro {

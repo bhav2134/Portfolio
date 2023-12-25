@@ -1,13 +1,13 @@
 .skills-card {
-    width: 8em; /* Adjust the width as needed */
+    width: 8em; 
     height: 10em;
-    border: 0.1em solid black; /* Add a border if desired */
+    border: 0.1em solid black; 
     border-radius: 8px;
     padding: 5px;
     padding-bottom: 0px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out; 
   }
   
   .skills-card:hover {
@@ -17,12 +17,32 @@
   }
   
   .skills-card img {
-    width: 100px; /* Make the image fill the card */
-    border-radius: 8px; /* Round the corners of the image */
+    width: 6em; 
+    border-radius: 8px;
   }
-  
-  .card-title {
-    margin-top: 10px;
-    font-size: 1px;
-    font-weight: bold;
+
+
+  @media (max-width: 480px) {
+    .skills-card {
+      width: 6em; 
+      height: 6em;
+      border: 0.1em solid black; 
+      border-radius: 8px;
+      padding: 5px;
+      padding-bottom: 0px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+      transition: transform 0.3s ease-in-out; 
+    }
+
+    .skills-card img {
+      width: 3em; 
+      border-radius: 8px; 
+    }
+
+    .skillstitle {
+      margin-top: 5px;
+      font-size: large;
+    }
+
   }
