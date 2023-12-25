@@ -2,19 +2,18 @@
     border-radius: 1em;
     overflow: hidden;
     background-color: inherit;
-    width: 22em;
-    height: 20em;
+    width: 22rem; 
+    height: 20em; 
     margin-bottom: 3rem;
-    background: linear-gradient(343deg, rgba(34,193,195,1) 0%, rgba(241,251,34,1) 100%);
-    border: 0.2em solid black;
     transition: transform 0.3s ease, border-color 0.3s ease;
+    background: linear-gradient(343deg, rgba(34,193,195,1) 0%, rgba(241,251,34,1) 100%);
 }
 
 .project-title {
     color: black;
     font-size: 2em;
     margin-top: 0.5em;
-    margin-bottom: 10px;
+    margin-bottom: -0.5em;
 }
 
 .description {
@@ -39,11 +38,7 @@ a {
 
 @media (max-width: 480px) {
     .project-card {
-        width: 16em;
+        width: 16.5em; 
         height: auto;
-    }
-
-    .project-card img {
-        height: 20%;
     }
 }

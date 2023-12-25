@@ -26,7 +26,7 @@ import github from '../assets/github.png';
 import rust from '../assets/rust.png';
 import typescript from '../assets/typescript.png';
 import CS50 from '../assets/CS50.png';
-import freecodecamppython from '../assets/Freecodecamp certificate.png';
+import freecodecamppython from '../assets/Freecodecampcertificate.png';
 
 const Languages = [
     {
@@ -146,7 +146,7 @@ const Languages = [
   const projects = [
     {
       title: 'Stock Analysis',
-      description: 'Algorithmic Trading',
+      description: 'Simplifying Large Stock Data for Easier Trading Information',
       imageSrc: stocks,
       url: 'https://github.com/bhav2134/Stock-Analysis',
     },

@@ -15,7 +15,6 @@ body,html {
   margin-top: -80px;
   position: relative;
   z-index: 1;
-  text-shadow: 2px 2px #38c172;
   font-size: 2.5rem;
   transition: background-color 5s ease;
   animation: slideSide 2s ease; 
@@ -25,7 +24,6 @@ body,html {
   margin-top: -40px; 
   margin-bottom: 10px; 
   text-align: center;
-  text-shadow: 2px 2px #38c172;
   transition: background-color 5s ease;
   animation: slideSide 2s ease; 
   padding-bottom: 20px;
@@ -33,7 +31,6 @@ body,html {
 
 .text .name-color {
   color: #38c172;
-  text-shadow: 2px 2px white;
 }
 
 

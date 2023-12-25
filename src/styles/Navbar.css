@@ -11,11 +11,11 @@ html, body {
   width: 100%;
   z-index: 1000;
   display: flex;
-  height: 2rem; /* Adjust as needed */
+  height: 2rem; 
   align-items: center;
   justify-content: space-between;
   background-color: moccasin;
-  padding: 0.625em 0.625em; /* Adjust as needed */
+  padding: 0.625em 0.625em; 
   animation: slideDown 1s ease;
 }
 
@@ -51,15 +51,15 @@ li {
   color: black;
   text-decoration: none;
   cursor: pointer;
-  transition: color 0.3s ease, border-color 0.3s ease; /* Added border-color transition */
+  transition: color 0.3s ease, background-color 0.3s ease; 
   border: 2px solid transparent;
   border-radius: 10px;
-  padding: 4px 8px; /* Added padding for a better visual appearance */
+  padding: 4px 8px; 
 }
 
 .nav a:hover {
-  border-color: #247e49; /* Change this to your desired border color on hover */
-  color: #247e49; /* Change this to your desired text color on hover */
+  background-color: #38c172;
+  color: moccasin; 
 }
 
 

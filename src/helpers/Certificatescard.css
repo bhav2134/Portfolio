@@ -1,10 +1,14 @@
 .certificate {
+    border-radius: 1.2em;
     display: grid;
     border: 0.2em solid black;
     width: 25em;
+    background: linear-gradient(343deg, rgba(255,175,189,1) 0%, rgba(255,195,160,1) 100%);
 }
 
 .certificate img {
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
     width: 25em;
     height: auto;
 }
