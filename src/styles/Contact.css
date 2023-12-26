@@ -1,6 +1,8 @@
 .contact-me {
     text-align: center;
     padding: 20px;
+    background: linear-gradient(135deg, #25272d, #46494f);
+    color: white;
   }
   
   .letconnect {
@@ -12,8 +14,8 @@
     margin: 10px;
     display: inline-block;
     text-decoration: none;
-    color: #000; 
     font-size: 25px;
+    color: white;
   }
   
 
@@ -25,7 +27,7 @@
   }
 
   .giticon:hover {
-    color: 	#fafbfc;
+    color: 	#46494f;
     text-shadow: none;
     transform: scale(1.1);
     transition: 0.3s;
@@ -37,6 +39,85 @@
     margin-top: 5px;
     font-size: 0.8em;
   }
+
+  .my-email {
+    color: #38c172;
+  }
+
+  form {
+    display: grid;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    grid-column: span 2; 
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: black;
+  }
+  
+  input[type="submit"] {
+    color: white;
+    background-color: #38c172;
+    padding: 10px 15px;
+    border-radius: 2em;
+    cursor: pointer;
+    width: 10em;
+    display: block;
+    margin: auto;
+    border: none;
+    margin-bottom: 1em;
+  }
+
+  input[type="submit"]:hover {
+    transform: translateY(5%);
+    transition: all 0.3s;
+  }
+
+  input[name = "message"],
+  textarea {
+    height: 10em;
+  }
+
+  input[type="text"]::placeholder,
+  input[type="email"]::placeholder,
+  textarea::placeholder {
+    font-size: 1.5em;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .input-error {
+    border: 1px solid red; 
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+
+  
+
+  
+
+  
   
 
 

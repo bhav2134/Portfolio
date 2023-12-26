@@ -4,7 +4,7 @@ body {
   }
   
   .projects {
-    background-color: #25272d;
+    background: linear-gradient(135deg, #25272d, #46494f);
     padding: 2rem;
     color: white;
     text-align: center;

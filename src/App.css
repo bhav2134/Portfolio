@@ -9,7 +9,6 @@ html {
 
 @media only screen and (max-width: 600px) {
   .App {
-    /* Adjust the width or any other styles for smaller screens */
     width: 100%;
   }
 }

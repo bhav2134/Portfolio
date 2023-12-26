@@ -1,3 +1,11 @@
   .certificate-title {
     font-size: 40px;
   }
+
+  .certificate {
+    transition: all 0.3s;
+  }
+
+  .certificate:hover {
+    transform: translateY(-2%);
+  }

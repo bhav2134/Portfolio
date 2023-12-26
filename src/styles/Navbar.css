@@ -87,10 +87,10 @@ nav .menu span {
 }
 
 
-@media (max-width: 30em) { /* 480px/16px = 30em */
+@media (max-width: 30em) { 
 
   .site-title {
-    font-size: 1.75rem;
+    display: block;
   }
 
   nav .menu {
@@ -127,10 +127,10 @@ nav .menu span {
 
   @keyframes slideleft {
     from {
-      transform: translateX(-100%); /* Start off-screen to the left */
+      transform: translateX(-100%); 
     }
     to {
-      transform: translateX(0); /* Slide in to the right */
+      transform: translateX(0);   
     }
   }
 
