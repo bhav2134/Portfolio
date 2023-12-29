@@ -16,7 +16,6 @@ import angular from '../assets/Angular.png';
 import aws from '../assets/AWS.png';
 import azure from '../assets/Azure.png';
 import flask from '../assets/Flask.png';
-import django from '../assets/Django.png';
 import elixer from '../assets/Elixer.png';
 import haskell from '../assets/Haskell.png';
 import nodejs from '../assets/nodejs.png';

@@ -20,6 +20,8 @@
 .description {
     color: black;
     margin-bottom: -0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .tools {
