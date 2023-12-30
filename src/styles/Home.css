@@ -20,9 +20,9 @@ body,html {
 
 .intro {
   margin-top: -40px; 
-  margin-bottom: 250px; 
+  margin-bottom: 250px;
+  padding-right: 1em; 
   text-align: right;
-  padding-right: 1em;
   padding-left: 5em;
   transition: background-color 5s ease;
   animation: slideSide 2s ease; 
@@ -37,18 +37,15 @@ body,html {
 
 .home {
   position: relative;
-  padding-right: 20px; 
+  padding-right: 0; 
   justify-content: space-between;
   max-width: none;
 }
 
-.profile-image {
-  margin-right: 10px;
-}
 
 .home img {
   margin-top: 8em;
-  margin-right: 50em;
+  margin-right: 60vw;
   border-radius: 100%;
   width: 100%;
   max-width: 350px; 

@@ -80,7 +80,7 @@
     padding-top: 6.25em; 
   }
 
-  nav .menu {
+  .menu {
     display: none;
     position: absolute;
     flex-direction: column;
@@ -89,18 +89,18 @@
     height: 1.25em;
   }
 
-  nav .menu .bar:nth-child(2) {
-    width: 1em;;
+  .menu .bar:nth-child(2) {
+    width: 1em;
   }
 
-  nav .menu span {
+  .menu span {
     height: 0.2em;
     background-color: black;
     border-radius: 0.2rem;
   }
 
 
-  @media (max-width: 64em) { 
+  @media (max-width: 45em) { 
 
     .nav {
       height: 2em;
@@ -121,17 +121,16 @@
       top: 2.75rem;
       right: 0;
       background-color: moccasin;
-      width: 60%;
+      width: 100%;
       height: calc(100vh - 2.5rem);
       flex-direction:column;
       justify-content: center;
       display: none;
       gap: 2.5em;
-      transition: transform 0.5s ease;
     }
 
     ul li {
-      font-size: 1.5rem; 
+      font-size: 2rem; 
     }
 
     ul li a {
@@ -141,6 +140,18 @@
     ul.open {
       display: flex;
       animation: slideleft 1s ease;
+    }
+
+    .open .menu .bar:nth-child(1) {
+      transform: rotate(-45deg) translate(-0.4em, 0.4em);
+    }
+    
+    .open .menu .bar:nth-child(2) {
+      opacity: 0;
+    }
+    
+    .open .menu .bar:nth-child(3) {
+      transform: rotate(45deg) translate(-0.4em, -0.4em);
     }
 
     .nav a:hover {
@@ -164,4 +175,5 @@
         transform: translateX(100%);
       }
     }
+
   }

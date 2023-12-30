@@ -6,7 +6,7 @@
   }
   
   .letconnect {
-    font-size: 2em;
+    font-size: 3em;
   }
   
   .giticon,
@@ -78,7 +78,7 @@
     margin: auto;
     border: none;
     margin-bottom: 1em;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   input[type="submit"]:hover {
@@ -95,9 +95,8 @@
   input[type="text"]::placeholder,
   input[type="email"]::placeholder,
   textarea::placeholder {
-    font-size: 1.5em;
-    font-weight: 800;
-    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .input-error {
