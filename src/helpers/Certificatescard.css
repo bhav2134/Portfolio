@@ -14,6 +14,7 @@
 }
 
 .certificate-name {
+    text-align: center;
     width: 20em;
     overflow-wrap: break-word;
 }

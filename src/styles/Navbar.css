@@ -100,7 +100,7 @@
   }
 
 
-  @media (max-width: 30em) { 
+  @media (max-width: 64em) { 
 
     .nav {
       height: 2em;
