@@ -78,7 +78,7 @@
     margin: auto;
     border: none;
     margin-bottom: 1em;
-    font-family: cursive;
+    font-family: 'Fira Sans', sans-serif;
   }
 
   input[type="submit"]:hover {
@@ -96,7 +96,8 @@
   input[type="email"]::placeholder,
   textarea::placeholder {
     font-size: 1.5em;
-    font-family: cursive;
+    font-weight: 800;
+    font-family: 'Fira Sans', sans-serif;
   }
   
   .input-error {

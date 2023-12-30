@@ -18,6 +18,12 @@
     overflow-wrap: break-word;
 }
 
+.certificate-description {
+    padding-left: 1em;
+    padding-right: 1em;
+    overflow-wrap: break-word;
+}
+
 
 
 @media (max-width: 480px) {
