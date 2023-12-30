@@ -5,7 +5,7 @@ import html from '../assets/html.png';
 import CSS from '../assets/CSS.png';
 import javascript from '../assets/javascript.png';
 import lisp from '../assets/Lisp.png';
-import stocks from '../assets/images.jpg';
+import stocks from '../assets/stocks.png';
 import mySQL from '../assets/MySQL.png';
 import nosql from '../assets/nosql.png';
 import firebase from '../assets/Firebase.png';

@@ -13,6 +13,7 @@ function Navbar() {
   const closeMenu = () => {
     setMenuOpen(false);
   };
+  
 
   return (
     <nav className='nav'>
@@ -32,7 +33,7 @@ function Navbar() {
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
-      <ul className={menuOpen ? "open" : "closed"}>
+      <ul className={menuOpen ? "open" : ""}>
         <li>
         <Link to="about" smooth={true} offset={-70} duration={100} onClick={closeMenu}>
           About
