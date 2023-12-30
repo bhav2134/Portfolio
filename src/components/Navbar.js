@@ -33,7 +33,7 @@ function Navbar() {
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
-      <ul className={menuOpen ? "open" : ""}>
+      <ul className={menuOpen ? "open" : "closed"}>
         <li>
         <Link to="about" smooth={true} offset={-70} duration={100} onClick={closeMenu}>
           About

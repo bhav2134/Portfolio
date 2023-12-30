@@ -1,7 +1,6 @@
 body,html {
   background-color: moccasin;
   font-size: large;
-  font-weight: bolder;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -9,23 +8,27 @@ body,html {
 
 .text {
   text-align: center; 
-  margin-bottom: 50px;
-  margin-top: -80px;
+  margin-top: -5em;
   position: relative;
+  text-align: right;
+  padding-right: 30px;
   z-index: 1;
   font-size: 3em;
   transition: background-color 5s ease;
-  animation: slideSide 2s ease; 
-  font-weight: 800;
+  animation: slideSide 2s ease;
+  font-size: 4rem; 
 }
 
 .intro {
   margin-top: -40px; 
-  margin-bottom: 10px; 
-  text-align: center;
+  margin-bottom: 250px; 
+  text-align: right;
+  padding-right: 30px;
+  padding-left: 5em;
   transition: background-color 5s ease;
   animation: slideSide 2s ease; 
   padding-bottom: 20px;
+  font-size: 4rem; 
 }
 
 .text .name-color {
@@ -38,17 +41,22 @@ body,html {
   padding-right: 20px; 
 }
 
+.profile-image {
+  margin-right: 10px;
+}
+
 .home img {
-  margin-top: 6em;
+  margin-top: 8em;
+  margin-right: 50em;
   border-radius: 100%;
-  width: 100%; 
+  width: 100%;
   max-width: 350px; 
   object-fit: cover;
   height: auto; 
   border: 8px solid black;
-  animation: slideIn 2s;
-  position: relative;
-  transition: transform 0.5s ease, border-color 0.5s ease;
+  position:initial;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  animation: slideSide 2s ease;
 }
 
 .home img:hover {
@@ -80,19 +88,25 @@ body,html {
     height: 100vh;
     padding-right: 0;
   }
+  .profile-image {
+    margin-right: 0;
+    margin-bottom: 5em;
+  }
 
   .text {
     padding-top: 3em;
     padding-left: 10px; 
     padding-right: 10px; 
-    font-size: 30px;
+    font-size: 2em;
     margin-bottom: 1em;
+    text-align: center;
   }
 
   .intro {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 30px;
+    font-size: 2em;
+    text-align: center;
   }
 
   .resume {
@@ -109,6 +123,7 @@ body,html {
     width: 80%;
     align-items: center;
     margin-top: 4rem;
+    margin-right: 0;
   }
 }
 
