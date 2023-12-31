@@ -15,11 +15,12 @@
 
 .certificate-name {
     text-align: center;
-    width: 20em;
+    width: auto;
     overflow-wrap: break-word;
 }
 
 .certificate-description {
+    text-align: center;
     padding-left: 1em;
     padding-right: 1em;
     overflow-wrap: break-word;
@@ -38,7 +39,7 @@
     }
 
     .certificate-name {
-        width: 13em;
+        width: auto;
     }
 
     .certificate-description {

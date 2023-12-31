@@ -13,6 +13,11 @@ body {
   margin-bottom: 10vh; /* Adjust margin based on your design */
 }
 
+.title {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 /* Add media query for smaller screens */
 @media screen and (max-width: 480px) {
   
