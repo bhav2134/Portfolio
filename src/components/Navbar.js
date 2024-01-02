@@ -8,6 +8,7 @@ function Navbar() {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+    document.body.style.overflow = menuOpen ? 'auto' : 'hidden';
   };
 
   const closeMenu = () => {
@@ -22,18 +23,18 @@ function Navbar() {
         spy={true}
         smooth={true}
         offset={-70}
-        duration={5}
+        duration={500}
         onClick={closeMenu}
         className='site-title'
       >
         b. 
       </Link>
-      <div className="menu" onClick={toggleMenu}>
+      <div className={`menu ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
-      <ul className={menuOpen ? "open" : "closed"}>
+      <ul className={menuOpen ? "open" : ""}>
         <li>
         <Link to="about" smooth={true} offset={-70} duration={100} onClick={closeMenu}>
           About

@@ -1,6 +1,6 @@
 .skills-card {
-  display: flex; /* Add flex container */
-  align-items: center; /* Center items vertically within the flex container */
+  display: flex; 
+  align-items: center; 
   width: 10em;
   border: 0.1em solid black;
   border-radius: 8px;
@@ -30,7 +30,7 @@
 
 @media (max-width: 480px) {
   .skills-card {
-    width: 8em;
+    width: 7.5em;
     border: 0.1em solid black;
     border-radius: 8px;
     padding: 5px;

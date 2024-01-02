@@ -97,6 +97,31 @@
     height: 0.2em;
     background-color: black;
     border-radius: 0.2rem;
+    transition: transform 0.5s ease, opacity 1s ease;
+  }
+
+  .menu.open span:nth-child(1) {
+    transform: rotate(-45deg) translate(-0.4em, 0.4em);
+  }
+  
+  .menu.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu.open span:nth-child(3) {
+    transform: rotate(45deg) translate(-0.3em, -0.3em);
+  }
+
+  .menu.reverse span:nth-child(1) {
+    transform: rotate(0) translate(0, 0);
+  }
+  
+  .menu.reverse span:nth-child(2) {
+    opacity: 1;
+  }
+  
+  .menu.reverse span:nth-child(3) {
+    transform: rotate(0) translate(0, 0);
   }
 
 
@@ -127,6 +152,7 @@
       justify-content: center;
       display: none;
       gap: 2.5em;
+      animation: slideRight 1s ease;
     }
 
     ul li {
@@ -142,17 +168,6 @@
       animation: slideleft 1s ease;
     }
 
-    .open .menu .bar:nth-child(1) {
-      transform: rotate(-45deg) translate(-0.4em, 0.4em);
-    }
-    
-    .open .menu .bar:nth-child(2) {
-      opacity: 0;
-    }
-    
-    .open .menu .bar:nth-child(3) {
-      transform: rotate(45deg) translate(-0.4em, -0.4em);
-    }
 
     .nav a:hover {
       color: black;
@@ -167,7 +182,7 @@
       }
     }
 
-    @keyframes slideright {
+    @keyframes slideRight {
       from {
         transform: translateX(0);
       }
