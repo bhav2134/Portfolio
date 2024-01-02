@@ -1,5 +1,7 @@
 .footer-line {
   border-top: 1px solid black; 
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 @media screen and (max-width: 600px) {

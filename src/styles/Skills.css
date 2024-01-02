@@ -1,5 +1,4 @@
 body {
-  font-size: 1rem; /* Use relative font size for better responsiveness */
   font-weight: bolder;
   margin: 0;
   padding: 0;
@@ -8,21 +7,21 @@ body {
 .skills-section, .database-section {
   display: flex;
   justify-content: center;
-  gap: 5vw; /* Use a percentage for better responsiveness */
+  gap: 2vw; 
   flex-wrap: wrap;
-  margin-bottom: 10vh; /* Adjust margin based on your design */
+  margin-bottom: 10vh; 
 }
 
 .title {
   padding-left: 1em;
   padding-right: 1em;
+  padding-top: 1rem;
 }
 
-/* Add media query for smaller screens */
 @media screen and (max-width: 480px) {
   
   .skills-section, .database-section {
-      gap: 10vw; 
+      gap: 5vw; 
       
   }
 }

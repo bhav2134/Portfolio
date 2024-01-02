@@ -5,12 +5,13 @@ body {
   
   .projects {
     background: linear-gradient(135deg, #25272d, #46494f);
-    padding: 2rem;
+    padding-top: 1rem;
     color: white;
-    text-align: center;
   }
   
   .title {
+    padding-left: 1em;
+    padding-right: 1em;
     font-size: 50px;
   }
   
@@ -24,4 +25,5 @@ body {
     justify-content: space-around;
     border-radius: 10px;
   }
+  
   

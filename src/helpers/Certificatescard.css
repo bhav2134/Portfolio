@@ -4,6 +4,8 @@
     border: 0.2em solid black;
     width: 25em;
     background: linear-gradient(343deg, rgba(255,175,189,1) 0%, rgba(255,195,160,1) 100%);
+    flex-wrap: wrap;
+    color: black;
 }
 
 .certificate img {
@@ -16,6 +18,8 @@
 .certificate-name {
     text-align: center;
     width: auto;
+    padding-left: 1em;
+    padding-right: 1em;
     overflow-wrap: break-word;
 }
 
