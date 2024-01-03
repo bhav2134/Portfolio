@@ -1,7 +1,6 @@
 .project-card {
     border-radius: 1em;
     overflow: hidden;
-    background-color: inherit;
     width: 25rem; 
     margin-bottom: 3rem;
     transition: transform 0.3s ease, border-color 0.3s ease;
@@ -12,7 +11,7 @@
 
 .project-title {
     color: black;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 0.5em;
     margin-bottom: -0.5em;
 }
@@ -22,11 +21,13 @@
     margin-bottom: -0.5em;
     padding-left: 1em;
     padding-right: 1em;
+    font-size: 1em;
 }
 
 .tools {
     color: black;
     font-style: italic;
+    font-size: 1em;
 }
 
 .project-card img {
@@ -37,7 +38,7 @@
 
 .project-card:hover {
     cursor: pointer;
-    transform: translateY(-5px);
+    transform: translateY(-0.5em);
 }
 
 a {
@@ -46,7 +47,7 @@ a {
 
 @media (max-width: 480px) {
     .project-card {
-        width: 16.5em; 
+        width: 15em; 
         height: auto;
     }
 }

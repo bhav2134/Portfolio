@@ -10,7 +10,6 @@ import mySQL from '../assets/MySQL.png';
 import nosql from '../assets/nosql.png';
 import firebase from '../assets/Firebase.png';
 import mangoDB from '../assets/mangoDB.png';
-import dynamoDB from '../assets/DynamoDB.png';
 import react from '../assets/React.png';
 import angular from '../assets/Angular.png';
 import aws from '../assets/AWS.png';
@@ -90,10 +89,6 @@ const Languages = [
     {
         title: 'MangoDB',
         imageSrc: mangoDB,
-    },
-    {
-        title: 'DynamoDB',
-        imageSrc: dynamoDB,
     },
     
   ];

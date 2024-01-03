@@ -3,6 +3,7 @@
     display: grid;
     border: 0.2em solid black;
     width: 25em;
+    height: 30em;
     background: linear-gradient(343deg, rgba(255,175,189,1) 0%, rgba(255,195,160,1) 100%);
     flex-wrap: wrap;
     color: black;
@@ -48,7 +49,7 @@
 
     .certificate-description {
         width: auto;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }

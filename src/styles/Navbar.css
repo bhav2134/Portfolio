@@ -134,6 +134,7 @@
     .site-title {
       font-size: 1.75em;
        margin-left: -5px;
+       text-decoration: none;
     }
 
     nav .menu {
@@ -143,7 +144,7 @@
 
     ul {
       position: absolute;
-      top: 2.75rem;
+      top: 3rem;
       right: 0;
       background-color: moccasin;
       width: 100%;
@@ -156,16 +157,19 @@
     }
 
     ul li {
-      font-size: 2rem; 
+      margin-bottom: 0.5em;
+      font-size: 1.5rem; 
     }
 
     ul li a {
       text-align: left;
+      border: 0.2em solid black;
+      border-radius: 2em;
     }
 
     ul.open {
       display: flex;
-      animation: slideleft 1s ease;
+      animation: slideLeft 1s ease;
     }
 
 
@@ -173,7 +177,7 @@
       color: black;
     }
 
-    @keyframes slideleft {
+    @keyframes slideLeft {
       from {
         transform: translateX(100%); 
       }
@@ -188,6 +192,15 @@
       }
       to {
         transform: translateX(100%);
+      }
+    }
+
+    @keyframes slideDown {
+      from {
+        transform: translateY(-100%); /* Adjusted value to start from the top of the navbar */
+      }
+      to {
+        transform: translateY(0);
       }
     }
 
