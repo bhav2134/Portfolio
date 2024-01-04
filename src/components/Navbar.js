@@ -57,7 +57,7 @@ function Navbar() {
         </li>
         <li>
           <Link to="contact" spy={true} smooth={true} offset={-10} duration={100} onClick={closeMenu}>
-            Contact
+            Contact-Me
           </Link>
         </li>
       </ul>

@@ -37,6 +37,7 @@
 
     .certificate {
         width: 15em;
+        height: auto;
     }
 
     .certificate img {
