@@ -2,9 +2,9 @@ import React, { useRef } from 'react';
 import { BsGithub } from 'react-icons/bs';
 import { GrLinkedin } from 'react-icons/gr';
 import emailjs from '@emailjs/browser';
+import toast, { Toaster } from 'react-hot-toast';
 import '../styles/Contact.css';
 
-// Contact component
 function Contact() {
   const formRef = useRef();
 
@@ -16,24 +16,22 @@ function Contact() {
     window.open('https://www.linkedin.com/in/bhavdeep-arora-747b52217/', '_blank');
   };
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
+
+    try {
+      await emailjs.sendForm(
         process.env.REACT_APP_SERVICE_KEY,
         process.env.REACT_APP_TEMPLATE_KEY,
         e.target,
         process.env.REACT_APP_USER_KEY
-      )
-      .then(
-        () => {
-          alert('Message successfully sent!');
-          formRef.current.reset();
-        },
-        () => {
-          alert('Failed to send the message, please try again');
-        }
       );
+
+      toast.success('Message successfully sent!');
+      formRef.current.reset();
+    } catch (error) {
+      toast.error('Failed to send the message, please try again');
+    }
   };
 
   return (
@@ -68,6 +66,7 @@ function Contact() {
         <textarea type="text" placeholder="Message" name="message" required></textarea>
         <input type="submit" className="flat-button" value="Send Message" />
       </form>
+      <Toaster position="bottom-right" reverseOrder={true} />
     </div>
   );
 }
