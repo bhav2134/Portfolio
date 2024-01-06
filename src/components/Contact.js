@@ -36,7 +36,9 @@ function Contact() {
 
   return (
     <div id="contact" className="contact-me">
-      <h1 className="letconnect">Let's Connect</h1>
+      <h1 className="letconnect">
+        Let's Connect<span className='dot'>.</span>
+      </h1>
       <a
         href="https://github.com/bhav2134"
         target="_blank"
@@ -57,7 +59,7 @@ function Contact() {
         <GrLinkedin />
         <span>LinkedIn</span>
       </a>
-      <h3>
+      <h3 className='email'>
         or send a message to <br /> <span className="my-email">bhavdeepsa@gmail.com</span>
       </h3>
       <form ref={formRef} onSubmit={sendEmail}>

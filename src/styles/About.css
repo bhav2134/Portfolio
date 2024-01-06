@@ -1,55 +1,58 @@
 body,html {
     margin: 0;
     padding: 0;
-    overflow: auto;
   }
 
   .about {
-    margin-top: 10vh;
     padding-top: 1rem;
     color: white;
     height: 100%;
     animation: slideIn 1s;
     padding-bottom: 5vw;
+    color: white;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
     background: linear-gradient(135deg, #25272d, #46494f);
   }
   
   .header {
-    font-size: 2.5em;
+    font-size: 2.5rem; 
+    padding-left: 5vw; 
+    padding-right: 5vw; 
+    position: relative;
+    font-weight: 600;
   }
-  
+
+  .dot {
+    color: #38c172;
+  }
+
   .interests {
     padding-left: 5vw; 
     padding-right: 5vw; 
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
   
   .thrive {
     padding-left: 5vw; 
     padding-right: 5vw; 
-    margin-top: 100px;
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
   .uni {
-    color: #f1fb22;
+    color: yellow;
   }
+
   
   @media screen and (max-width: 480px) {
-
-    .about {
-      width: 100%;
-    }
-
+    
     .interests {
-      padding-left: 5vw; 
-      padding-right: 5vw; 
-      padding-top: 30px;
-      font-size: 1.5em; 
+      font-size: 1em; 
     }
 
     .thrive {
-      padding-left: 5vw; 
-      padding-right: 5vw; 
-      font-size: 1.5em; 
+      font-size: 1em; 
     }
   }

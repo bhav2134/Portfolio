@@ -6,7 +6,7 @@ import { Languages,Databses,Frameworks,clouds,others, projects,certificates } fr
 function Skills() {
   return (
     <div id="skills" className='skills'>
-      <h1 className='title'>Featured Skills</h1>
+      <h1 className='title'>Featured Skills<span className='dot'>.</span></h1>
       <h2>Languages</h2>
         <div className="skills-section">
           {Languages.map((skills, index) => (

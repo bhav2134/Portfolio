@@ -1,7 +1,11 @@
-body {
-  font-weight: bolder;
+body,html {
+  font-weight: normal;
   margin: 0;
   padding: 0;
+}
+
+.skills h2 {
+  font-weight: 400;
 }
 
 .skills-section, .database-section {
@@ -16,6 +20,8 @@ body {
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 480px) {

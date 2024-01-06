@@ -10,7 +10,7 @@
     width: 100%;
     z-index: 1000;
     display: flex;
-    height: 1.5rem; 
+    height: 2rem; 
     align-items: center;
     justify-content: space-between;
     background-color: transparent;
@@ -70,9 +70,9 @@
 
   .nav.scrolling {
     border-top: none;
-    background-color: #38c172;
-    animation: slideDown 0.5s ease;
-    height: 2rem;
+    background-color: rgba(56, 193, 114, 0.95);
+    animation: slideDown 2s ease-in-out;
+    height: 2.5em;
   }
 
   .menu {
@@ -147,6 +147,8 @@
     }
   }
 
+  
+
 
   @media (max-width: 45em) { 
 
@@ -154,6 +156,7 @@
       height: 2em;
       text-decoration: none;
       background-color: rgba(255, 228, 181, 1);
+      animation: none;
     }
 
     .site-title {
@@ -178,6 +181,7 @@
       background-color: moccasin;
       transition: none;
       animation: none;
+      height: 2em;
     }
   
 
@@ -216,7 +220,7 @@
 
     .tab.open {
       display: flex;
-      animation: slideLeft 1s ease;
+      animation: slideLeft 1s ease-in-out;
     }
 
     .nav a:hover {

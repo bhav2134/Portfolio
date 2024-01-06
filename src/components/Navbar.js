@@ -3,9 +3,8 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import '../styles/Navbar.css';
 
 function Navbar() {
-
   const [menuOpen, setMenuOpen] = useState(false);
-  const [menuDirection, setMenuDirection] = useState(''); 
+  const [menuDirection, setMenuDirection] = useState('');
   const [scrolling, setScrolling] = useState(false);
 
   const toggleMenu = () => {
@@ -21,7 +20,7 @@ function Navbar() {
   };
 
   const handleScroll = () => {
-    const offset = 150; 
+    const offset = 150;
     if (window.scrollY > offset) {
       setScrolling(true);
     } else {
@@ -35,12 +34,11 @@ function Navbar() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  
 
   return (
     <nav className={`nav ${scrolling ? 'scrolling' : ''}`}>
       <Link to="home" smooth={true} offset={-70} duration={100} onClick={closeMenu} className="site-title">
-        b. 
+        b.
       </Link>
       <div className={`menu ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <span className="bar"></span>
@@ -49,9 +47,9 @@ function Navbar() {
       </div>
       <ul className={`tab ${menuOpen ? menuDirection : ''}`}>
         <li>
-        <Link to="about" smooth={true} offset={-70} duration={100} onClick={closeMenu}>
-          About
-        </Link>
+          <Link to="about" smooth={true} offset={-70} duration={100} onClick={closeMenu}>
+            About
+          </Link>
         </li>
         <li>
           <Link to="skills" spy={true} smooth={true} offset={-70} duration={100} onClick={closeMenu}>
@@ -59,12 +57,12 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="projects" spy={true} smooth={true}  offset={-70} duration={100} onClick={closeMenu}>
+          <Link to="projects" spy={true} smooth={true} offset={-70} duration={100} onClick={closeMenu}>
             Projects
           </Link>
         </li>
         <li>
-          <Link to="certifications" spy={true} smooth={true}  offset={-70} duration={100} onClick={closeMenu}>
+          <Link to="certifications" spy={true} smooth={true} offset={-70} duration={100} onClick={closeMenu}>
             Certificates
           </Link>
         </li>

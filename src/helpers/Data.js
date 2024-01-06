@@ -149,13 +149,13 @@ const Languages = [
 
   const certificates = [
     {
-      title: 'Harvard CS50x: Introduction to programming',
+      title: 'Harvard CS50: Introduction to programming',
       imageSrc: CS50,
       description: 'Languages & Tools Learned: C, Python, SQL, HTML, CSS, JavaScript, Flask (Python web framework), Scratch, Git',
       url: 'https://pll.harvard.edu/course/cs50-introduction-computer-science',
     },
     {
-      title: 'Scientific Computing with python',
+      title: 'freeCodeCamp: Scientific Computing with python',
       imageSrc: freecodecamppython,
       description: 'Languages & Tools Learned: Python, NumPy, Pandas, Matplotlib, SciPy, SymPy, Jupyter Notebooks',
       url: 'https://www.freecodecamp.org/learn/scientific-computing-with-python/',

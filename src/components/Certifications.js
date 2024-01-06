@@ -6,7 +6,9 @@ import { Languages,Databses,Frameworks,clouds,others,projects,certificates } fro
 function Certifications() {
   return (
     <div id="certifications" className='certifactions'>
-      <h1 className='certificate-title'>Certifications</h1>
+      <h1 className='certificate-title'>
+        Certifications<span className='dot'>.</span>
+      </h1>
         <div className="skills-section">
           {certificates.map((certificate, index) => (
           <Certificatescard key={index} {...certificate} />

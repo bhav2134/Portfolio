@@ -41,6 +41,10 @@
     font-size: 0.8em;
   }
 
+  .email {
+    font-weight: 400;
+  }
+
   .my-email {
     color: #38c172;
   }
@@ -79,7 +83,7 @@
     margin: auto;
     border: none;
     margin-bottom: 1em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   input[type="submit"]:hover {
@@ -97,7 +101,7 @@
   input[type="email"]::placeholder,
   textarea::placeholder {
     font-size: 1.2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
   
   .input-error {

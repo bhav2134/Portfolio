@@ -3,7 +3,7 @@ body,html {
   font-size: large;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .text {
@@ -20,7 +20,7 @@ body,html {
 
 .intro {
   margin-top: -40px; 
-  margin-bottom: 20vw;
+  margin-bottom: 1em;
   padding-right: 1em; 
   text-align: right;
   padding-left: 5em;
@@ -35,10 +35,12 @@ body,html {
 
 
 .home {
+  height: 100vh;
   position: relative;
   padding-right: 0; 
   justify-content: space-between;
   max-width: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -83,7 +85,6 @@ body,html {
 
   .home {
     height: 100vh;
-    padding-right: 0;
   }
 
   .home img {

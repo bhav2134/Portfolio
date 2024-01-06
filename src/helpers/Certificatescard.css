@@ -19,9 +19,8 @@
 .certificate-name {
     text-align: center;
     width: auto;
-    padding-left: 1em;
-    padding-right: 1em;
     overflow-wrap: break-word;
+    font-weight: 400;
 }
 
 .certificate-description {
@@ -36,15 +35,17 @@
 @media (max-width: 480px) {
 
     .certificate {
-        width: 15em;
+        width: 16em;
         height: auto;
     }
 
     .certificate img {
-        width: 15em;
+        width: 16em;
     }
 
     .certificate-name {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
         width: auto;
     }
 

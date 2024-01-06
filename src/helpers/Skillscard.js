@@ -6,7 +6,6 @@ const Skillscard = ({ title, imageSrc }) => {
     <div className='skills-card'>
         <img src={imageSrc} alt={title} />
         <h3 className='skillstitle'>{title}</h3>    
-
     </div>
   )
 }
