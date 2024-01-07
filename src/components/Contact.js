@@ -4,6 +4,8 @@ import { GrLinkedin } from 'react-icons/gr';
 import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 import '../styles/Contact.css';
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 function Contact() {
   const formRef = useRef();
@@ -36,6 +38,7 @@ function Contact() {
 
   return (
     <div id="contact" className="contact-me">
+      <Fade top>
       <h1 className="letconnect">
         Let's Connect<span className='dot'>.</span>
       </h1>
@@ -62,6 +65,7 @@ function Contact() {
       <h3 className='email'>
         or send a message to <br /> <span className="my-email">bhavdeepsa@gmail.com</span>
       </h3>
+      </Fade>
       <form ref={formRef} onSubmit={sendEmail}>
         <input type="text" name="user_name" placeholder="Name" required />
         <input type="email" name="user_email" placeholder="Email" required />

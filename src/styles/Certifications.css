@@ -3,6 +3,14 @@
     font-size: 2.5em;
   }
 
+  .certificate-section {
+    display: flex;
+    justify-content: center;
+    gap: 2vw; 
+    flex-wrap: wrap;
+    margin-bottom: 10vh; 
+  }
+
   .certificate {
     transition: all 0.3s;
   }

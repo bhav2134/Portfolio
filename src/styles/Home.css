@@ -14,7 +14,7 @@ body,html {
   padding-right: 1em;
   z-index: 1;
   transition: background-color 5s ease;
-  animation: slideSide 2s ease;
+  animation: slideSideRight 1s ease-in-out;
   font-size: 5vw; 
 }
 
@@ -25,7 +25,7 @@ body,html {
   text-align: right;
   padding-left: 5em;
   transition: background-color 5s ease;
-  animation: slideSide 2s ease; 
+  animation: slideSideRight 1s ease-in-out;
   font-size: 5vw; 
 }
 
@@ -55,14 +55,24 @@ body,html {
   border: 8px solid black;
   position:initial;
   transition: transform 0.3s ease, border-color 0.3s ease;
-  animation: slideSide 2s ease;
+  animation: slideSideLeft 1s ease;
 }
 
 .home img:hover {
   border-color: #38c172;
 }
 
-@keyframes slideSide {
+
+@keyframes slideSideRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideSideLeft {
   from {
     transform: translateX(-100%);
   }
