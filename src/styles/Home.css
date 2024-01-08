@@ -14,7 +14,7 @@ body,html {
   padding-right: 1em;
   z-index: 1;
   transition: background-color 5s ease;
-  animation: slideSideRight 1s ease-in-out;
+  animation: lightspeedInRight 1s ease-in-out;
   font-size: 5vw; 
 }
 
@@ -25,7 +25,7 @@ body,html {
   text-align: right;
   padding-left: 5em;
   transition: background-color 5s ease;
-  animation: slideSideRight 1s ease-in-out;
+  animation: lightspeedInRight 1s ease-in-out;
   font-size: 5vw; 
 }
 
@@ -63,15 +63,6 @@ body,html {
 }
 
 
-@keyframes slideSideRight {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
 @keyframes slideSideLeft {
   from {
     transform: translateX(-100%);
@@ -87,6 +78,26 @@ body,html {
   }
   to {
     opacity: 1;
+  }
+}
+
+@keyframes lightspeedInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0%, 0, 0) skewX(20deg);
+  }
+
+  80% {
+    transform: translate3d(10%, 0, 0) skewX(-5deg);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
   }
 }
 

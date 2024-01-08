@@ -5,7 +5,7 @@ import { Zoom } from "react-awesome-reveal";
 function About() {
   return (
     <div id="about" className='about'>
-      <Zoom delay={200} triggerOnce>
+      <Zoom triggerOnce>
         <h2 className='header'>About<span className='dot'>.</span></h2>
         <p className='interests'>
         Hey there! I'm a computer science amateur at 
