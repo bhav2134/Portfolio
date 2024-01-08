@@ -4,7 +4,7 @@ import { GrLinkedin } from 'react-icons/gr';
 import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 import '../styles/Contact.css';
-import { Fade } from 'react-awesome-reveal';
+import { Zoom } from 'react-awesome-reveal';
 
 function Contact() {
   const formRef = useRef();
@@ -37,9 +37,11 @@ function Contact() {
 
   return (
     <div id="contact" className="contact-me">
+      <Zoom>
       <h1 className="letconnect">
         Let's Connect<span className='dot'>.</span>
       </h1>
+      </Zoom>
       <a
         href="https://github.com/bhav2134"
         target="_blank"

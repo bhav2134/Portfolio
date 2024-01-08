@@ -1,9 +1,8 @@
 import React from 'react';
 import '../styles/Projects.css';
 import Projectcard from '../helpers/Projectcard';
-import { Link, Element } from "react-scroll";
 import { Languages, Databases, Frameworks, Clouds, Others, projects,certificates } from '../helpers/Data';
-import { Fade, Zoom } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 function Projects() {
   const handleclick = (url) => {
