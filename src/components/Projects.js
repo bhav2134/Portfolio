@@ -3,7 +3,7 @@ import '../styles/Projects.css';
 import Projectcard from '../helpers/Projectcard';
 import { Link, Element } from "react-scroll";
 import { Languages, Databases, Frameworks, Clouds, Others, projects,certificates } from '../helpers/Data';
-
+import { Fade, Zoom } from "react-awesome-reveal";
 
 function Projects() {
   const handleclick = (url) => {
@@ -12,10 +12,13 @@ function Projects() {
 
   return (
     <div id="projects" className='projects'>
+      <Zoom triggerOnce>
       <h1 className='title'>
         Projects<span className='dot'>.</span>
       </h1>
+      </Zoom>
       <div className="project-section">
+        <Zoom cascade triggerOnce>
         {projects.map((project, index) => (
           <a
             key={index}
@@ -27,6 +30,7 @@ function Projects() {
             <Projectcard {...project} />
           </a>
         ))}
+        </Zoom>
       </div>
     </div>
   );

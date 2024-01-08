@@ -4,6 +4,7 @@ import { GrLinkedin } from 'react-icons/gr';
 import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 import '../styles/Contact.css';
+import { Fade } from 'react-awesome-reveal';
 
 function Contact() {
   const formRef = useRef();
