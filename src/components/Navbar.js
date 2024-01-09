@@ -67,7 +67,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="contact" spy={true} smooth={true} offset={-10} duration={100} onClick={closeMenu}>
+          <Link to="contact" spy={true} smooth={true} offset={-70} duration={100} onClick={closeMenu}>
             Connect
           </Link>
         </li>
