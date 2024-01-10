@@ -12,11 +12,11 @@ function Certifications() {
         Certifications<span className='dot'>.</span>
       </h1>
         <div className="certificate-section">
-          <Zoom cascade triggerOnce>
+          <Fade cascade triggerOnce>
           {certificates.map((certificate, index) => (
           <Certificatescard key={index} {...certificate} />
         ))}
-        </Zoom>
+        </Fade>
         </div>
         </Zoom>
     </div>
