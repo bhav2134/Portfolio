@@ -18,3 +18,9 @@
   .certificate:hover {
     transform: translateY(-2%);
   }
+
+  @media (max-width: 300px) {
+    .certificate-title {
+      font-size: 2em;
+    }
+  }

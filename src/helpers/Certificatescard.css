@@ -55,3 +55,13 @@
         margin-right: 5px;
     }
 }
+
+@media (max-width: 300px) {
+    .certificate {
+        width: 12em;
+    }
+
+    .certificate img {
+        width: 12em;
+    }
+}

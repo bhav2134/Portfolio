@@ -54,3 +54,9 @@ a {
         height: auto;
     }
 }
+
+@media (max-width: 300px) {
+    .project-card {
+        width: 12em;
+    }
+}

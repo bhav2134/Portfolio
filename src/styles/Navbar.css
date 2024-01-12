@@ -1,230 +1,89 @@
-  html, body {
+body,html {
+    background-color: moccasin;
+    font-size: large;
     margin: 0;
     padding: 0;
+    overflow: auto;
   }
-
-  .nav {
-    border-top: 0.5em solid #38c172;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    display: flex;
-    height: 2rem; 
-    align-items: center;
-    justify-content: space-between;
-    background-color: transparent;
-    padding: 0.625em 0.625em; 
-    transition: 0.5s all;
-    animation: slideDown 1s ease;
-  }
-
-  .site-title {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 1.25em;
-  }
-
-  ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    font-size: 1.25em;
-  }
-
-  li {
-    margin-right: 1.25em;
-  }
-
-  .nav a {
-    position: relative;
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 4px 8px;
-    overflow: hidden;
-  }
-
-  .nav a::before {
-    content: "";
-    position: absolute;
-    bottom: 0%; 
-    left: 0;
-    width: 100%;
-    height: 0%;
-    background-color: black;
-    z-index: -1;
-    transition: height 0.2s ease;
-  }
-
-  .nav a:hover {
-    color: moccasin;
-    transition: 0.3s ease;
-  }
-
-  .nav a:hover::before {
-    height: 100%;
-  }
-
-  .nav.scrolling {
-    border-top: none;
-    background-color: rgba(56, 193, 114, 0.95);
-    animation: slideDown 2s ease-in-out;
-    height: 2.5em;
-  }
-
-  .menu {
+  
+.navbar {
     display: none;
-    position: absolute;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 1.5em;
-    height: 1.25em;
-  }
-
-  .menu .bar:nth-child(2) {
-    width: 1em;
-  }
-
-  .menu span {
-    height: 0.2em;
-    background-color: black;
-    border-radius: 0.2rem;
-    transition: transform 0.5s ease, opacity 1s ease;
-  }
-
-  .menu.open span:nth-child(1) {
-    transform: rotate(-45deg) translate(-0.4em, 0.4em);
+    align-items: center; 
+    justify-content: center;
+    flex-direction: row;
+    position: fixed;
+    background-color: rgba(56, 193, 114, 0.9); /* Set the opacity by adjusting the alpha value (0.7 in this example) */
+    z-index: 2;
+    width: 100%;
+    height: 5em;
+    margin-top: 0em;
+    transition: all 0.3s ease;
   }
   
-  .menu.open span:nth-child(2) {
-    opacity: 0;
+  .navbar li  {
+    list-style: none;
+    margin-left: 4em;
   }
   
-  .menu.open span:nth-child(3) {
-    transform: rotate(45deg) translate(-0.3em, -0.3em);
+  .navbar li a {
+    box-shadow: inset 0 0 0 0 black;
+    color: black; 
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0 -.5rem;
+    padding: 0.25rem .5rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, 
+      BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", 
+      sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    transition: box-shadow 0.5s ease, color 0.5s ease;
+    font-style: italic;
+  }
+  
+  .navbar a:hover {
+    box-shadow: inset 0 -100px 0 0 black;
+    cursor: pointer;
+    color: moccasin;
+  }
+  
+  
+  .navbar .connect-link {
+    border: 4px solid black;
+    border-radius: 0.25em;
+    font-weight: bold;
+    padding: 0.3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    font-style: normal;
+  }
+  
+  .navbar .logo {
+    padding: 0.3em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    border: 4px solid black;
+    border-radius: 0.25em;
+    font-style: normal;
   }
 
-  .menu.reverse span:nth-child(1) {
-    transform: rotate(0) translate(0, 0);
-  }
-  
-  .menu.reverse span:nth-child(2) {
-    opacity: 1;
-  }
-  
-  .menu.reverse span:nth-child(3) {
-    transform: rotate(0) translate(0, 0);
-  }
-
-  
-  @keyframes slideLeft {
-    from {
-      transform: translateX(100%); 
-    }
-    to {
-      transform: translateX(0);   
-    }
-  }
-
-  @keyframes slideRight {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(100%);
-    }
+  .navbar.scrolling {
+    display: flex;
+    animation: slideDown 0.3s ease-in-out;
   }
 
   @keyframes slideDown {
     from {
-      transform: translateY(-100%); 
+        transform: translateY(-100%);
     }
     to {
-      transform: translateY(0);
+        transform: translateY(0);
     }
-  }
+}
 
-  
-
-
-  @media (max-width: 45em) { 
-
-    .nav {
-      height: 2em;
-      text-decoration: none;
-      background-color: rgba(255, 228, 181, 1);
-      animation: none;
+@media (max-width: 55em) {
+    .navbar.scrolling {
+        display: none;
     }
-
-    .site-title {
-      font-size: 1.75em;
-      margin-top: 5px;
-      margin-left: -5px;
-    }
-
-    .nav a::before {
-      content: "";
-      position: absolute;
-      bottom: 0%; 
-      left: 0;
-      width: 0%;
-      height: 0%;
-      z-index: -1;
-      transition: height 0.2s ease;
-    }
-
-    .nav.scrolling {
-      border-top: 0.5em solid #38c172;
-      background-color: moccasin;
-      transition: none;
-      animation: none;
-      height: 2em;
-    }
-  
-
-    nav .menu {
-      display: flex;
-      right: 2em;
-    }
-
-    .tab {
-      position: absolute;
-      top: 3rem;
-      right: 0;
-      background-color: rgba(255, 228, 181, 1);
-      width: 100%;
-      height: calc(100vh - 3rem);
-      flex-direction:column;
-      justify-content: center;
-      display: none;
-      gap: 2em;
-    }
-
-    .tab li {
-      font-size: 1.5rem; 
-    }
-
-    .tab li a {
-      text-align: left;
-      border: 2px solid black;
-      border-radius: 2em;
-      box-shadow: 5px 5px 0px black;
-    }
-
-    .tab.reverse {
-      animation: slideRight 1s ease;
-    }
-
-    .tab.open {
-      display: flex;
-      animation: slideLeft 1s ease-in-out;
-    }
-
-    .nav a:hover {
-      color: black;
-    }
-
-  }
+}
