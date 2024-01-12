@@ -15,40 +15,39 @@ function Burger() {
 
   return (
     <div className="navbar-burger">
-      <div className="menu" onClick={toggleMenu}>
+      <div className={`menu ${menuOpen ? 'close' : ''}`} onClick={toggleMenu}>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
-
-      <ul className={menuOpen ? "open" : ""}>
+      <ul className={menuOpen ? "open" : ""} onClick={toggleMenu}>
         <li>
-          <Link to="Home" className='logo' smooth={true} offset={-75} duration={100}>
+          <Link to="Home" className='logo' smooth={true} duration={100} onClick={closeMenu}>
             BA
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} offset={-75} duration={100}>
+          <Link to="about" smooth={true} duration={100} onClick={closeMenu}>
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" spy={true} smooth={true} offset={-75} duration={100}>
+          <Link to="skills" spy={true} smooth={true} duration={100} onClick={closeMenu}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="projects" spy={true} smooth={true} offset={-75} duration={100}>
+          <Link to="projects" spy={true} smooth={true} duration={100} onClick={closeMenu}>
             Projects
           </Link>
         </li>
         <li>
-          <Link to="certifications" spy={true} smooth={true} offset={-75} duration={100}>
+          <Link to="certifications" spy={true} smooth={true} duration={100} onClick={closeMenu}>
             Certificates
           </Link>
         </li>
         <li>
-          <Link to="contact" className="connect-link" spy={true} smooth={true} offset={-75} duration={100}>
+          <Link to="contact" className="connect-link" spy={true} smooth={true} duration={100} onClick={closeMenu}>
             Contact Me
           </Link>
         </li>
