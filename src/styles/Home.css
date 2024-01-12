@@ -15,7 +15,7 @@ body,html {
 }
 
 .navbar-home li  {
-  margin-left: 4em;
+  margin-left: 3em;
 }
 
 .navbar-home li a {
@@ -24,7 +24,6 @@ body,html {
   text-decoration: none;
   font-size: 1.5em;
   font-weight: 700;
-  margin: 0 -.5rem;
   padding: 0.25rem .5rem;
   font-family: ui-sans-serif, system-ui, -apple-system, 
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", 

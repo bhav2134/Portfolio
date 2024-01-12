@@ -1,0 +1,37 @@
+/* styles.css */
+.menu {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1.5em;
+    height: 1.25em;
+    right: 1em;
+    margin-top: 2em;
+    border: 0px solid black;
+    padding: 10px;
+    background-color:#38c172;
+    border-radius: 2em;
+    z-index: 2;
+}
+
+.menu span {
+    height: 0.2em;
+    background-color: black;
+    border-radius: 0.2rem;
+}
+
+.menu span.bar:nth-child(2) {
+    width: 1em;
+}
+
+ul {
+    display:none;
+}
+
+@media (max-width: 55em) {
+    .menu {
+        display: flex;
+    }
+}
+

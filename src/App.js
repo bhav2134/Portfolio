@@ -7,13 +7,14 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Certifications from './components/Certifications';
-import Experience from './components/Experience';
+import Burger from './helpers/Burger';
 
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Burger />
       <Home />
       <About />
       <Skills />
