@@ -65,6 +65,19 @@ ul {
     transform: rotate(-45deg) translate(0.3em, -0.3em);
 }
 
+.menu.open span:nth-child(1) {
+    transform: rotate(45deg) translate(0.5em, 0);
+}
+  
+.menu.open span:nth-child(2) {
+    width: 100%;
+    opacity: 1;
+    transform: translate(0, 0);
+}
+  
+.menu.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(0.3em, 0);
+}
 
 
 @keyframes slideLeft {
@@ -107,7 +120,7 @@ ul {
         background-color: rgba(56, 193, 114, 1); 
         top: 0;
         margin-top: 0;
-        animation: slideLeft 1s ease;
+        animation: slideLeft 1s ease alternate;
     }
     
 }

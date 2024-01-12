@@ -1,5 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
+import { Zoom } from "react-awesome-reveal";
+
 import './Burger.css';
 
 function Burger() {
@@ -20,7 +22,8 @@ function Burger() {
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
-      <ul className={menuOpen ? "open" : ""} onClick={toggleMenu}>
+      <ul className={menuOpen ? "open" : ""}>
+        <Zoom cascade triggerOnce duration={400} delay={500} >
         <li>
           <Link to="Home" className='logo' smooth={true} duration={100} onClick={closeMenu}>
             BA
@@ -51,6 +54,7 @@ function Burger() {
             Contact Me
           </Link>
         </li>
+        </Zoom>
       </ul>
     </div>
   );

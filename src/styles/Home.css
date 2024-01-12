@@ -180,10 +180,20 @@ body,html {
   }
 
   .home {
+    position: relative; /* Reset position for non-mobile screens */
     height: 100%;
-    margin: auto;
-
   }
+
+  .home::before {
+    content: "";
+    border-top: 1em solid #38c172;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the border-top stays above other content */
+  }
+
 
   .profile-image {
     margin-right: 0;

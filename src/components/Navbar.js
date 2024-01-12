@@ -26,32 +26,32 @@ function Navbar() {
     <nav>
       <ul className={`navbar ${scrolling ? 'scrolling' : ''}`}>
         <li>
-          <Link to="Home" className='logo' smooth={true} offset={-75}  duration={100}>
+          <Link to="Home" className='logo' smooth={true} duration={100}>
             BA
           </Link>          
         </li>
         <li>
-          <Link to="about" smooth={true} offset={-75}  duration={100}>
+          <Link to="about" smooth={true} offset={-90}  duration={100}>
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" spy={true} smooth={true} offset={-75}  duration={100}>
+          <Link to="skills" spy={true} smooth={true} offset={-120}  duration={100}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="projects" spy={true} smooth={true} offset={-75}  duration={100}>
+          <Link to="projects" spy={true} smooth={true} offset={-90}  duration={100}>
             Projects
           </Link>
         </li>
         <li>
-          <Link to="certifications" spy={true} smooth={true} offset={-75} duration={100}>
+          <Link to="certifications" spy={true} smooth={true} offset={-120} duration={100}>
             Certificates
           </Link>
         </li>
         <li>
-          <Link to="contact" className="connect-link" spy={true} smooth={true} offset={-75}  duration={100}>
+          <Link to="contact" className="connect-link" spy={true} smooth={true} offset={-90}  duration={100}>
             Contact Me
           </Link>
         </li>
