@@ -31,22 +31,22 @@ function Navbar() {
           </Link>          
         </li>
         <li>
-          <Link to="about" smooth={true} offset={-90}  duration={100}>
+          <Link to="about" smooth={true} offset={-90}  duration={100} className="component">
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" spy={true} smooth={true} offset={-120}  duration={100}>
+          <Link to="skills" spy={true} smooth={true} offset={-120} duration={100} className="component">
             Skills
           </Link>
         </li>
         <li>
-          <Link to="projects" spy={true} smooth={true} offset={-90}  duration={100}>
+          <Link to="projects" spy={true} smooth={true} offset={-90}  duration={100} className="component">
             Projects
           </Link>
         </li>
         <li>
-          <Link to="certifications" spy={true} smooth={true} offset={-120} duration={100}>
+          <Link to="certifications" spy={true} smooth={true} offset={-120} duration={100} className="component">
             Certificates
           </Link>
         </li>
