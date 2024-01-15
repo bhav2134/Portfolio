@@ -2,6 +2,14 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  .project-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+    border-radius: 1rem;
+  }
   
   .projects {
     background: linear-gradient(135deg, #25272d, #46494f);
@@ -9,21 +17,8 @@ body {
     color: white;
   }
   
-  .title {
-    padding-left: 1em;
-    padding-right: 1em;
-    font-size: 2.5em;
-  }
+
   
-  .desc {
-    font-weight: 1000;
-  }
-  
-  .project-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border-radius: 10px;
-  }
+
 
   

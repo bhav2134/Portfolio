@@ -9,7 +9,7 @@ import stocks from '../assets/stocks.png';
 import mySQL from '../assets/MySQL.png';
 import nosql from '../assets/nosql.png';
 import firebase from '../assets/Firebase.png';
-import mangoDB from '../assets/mangoDB.png';
+import MongoDB from '../assets/mangoDB.png';
 import react from '../assets/React.png';
 import angular from '../assets/Angular.png';
 import aws from '../assets/AWS.png';
@@ -87,8 +87,8 @@ const Languages = [
         imageSrc: firebase,
     },
     {
-        title: 'MangoDB',
-        imageSrc: mangoDB,
+        title: 'MongoDB',
+        imageSrc: MongoDB,
     },
     
   ];
@@ -144,7 +144,8 @@ const Languages = [
       imageSrc: stocks,
       url: 'https://github.com/bhav2134/Stock-Analysis',
       tools: 'Python, SQL, Excel, Replit',
-    },
+      backgroundcolor: 'linear-gradient(343deg, rgba(34,193,195,1) 0%, rgba(241,251,34,1) 100%)',
+    },  
   ];
 
   const certificates = [
@@ -153,12 +154,14 @@ const Languages = [
       imageSrc: CS50,
       description: 'Languages & Tools Learned: C, Python, SQL, HTML, CSS, JavaScript, Flask (Python web framework), Scratch, Git',
       url: 'https://pll.harvard.edu/course/cs50-introduction-computer-science',
+      backgroundcolor: 'linear-gradient(343deg, rgba(255,175,189,1) 0%, rgba(255,195,160,1) 100%)',
     },
     {
       title: 'freeCodeCamp: Scientific Computing with python',
       imageSrc: freecodecamppython,
       description: 'Languages & Tools Learned: Python, NumPy, Pandas, Matplotlib, SciPy, SymPy, Jupyter Notebooks',
       url: 'https://www.freecodecamp.org/learn/scientific-computing-with-python/',
+      backgroundcolor: 'linear-gradient(to right, #6ea3fc, #93c5fd)',    
     },
   ]
 

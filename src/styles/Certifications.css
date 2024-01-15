@@ -6,7 +6,7 @@
   .certificate-section {
     display: flex;
     justify-content: center;
-    gap: 2vw; 
+    gap: 2em; 
     flex-wrap: wrap;
     margin-bottom: 10vh; 
   }
@@ -17,10 +17,4 @@
 
   .certificate:hover {
     transform: translateY(-2%);
-  }
-
-  @media (max-width: 300px) {
-    .certificate-title {
-      font-size: 2em;
-    }
   }

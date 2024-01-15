@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Projects.css';
 import Projectcard from '../helpers/Projectcard';
 import { Languages, Databases, Frameworks, Clouds, Others, projects,certificates } from '../helpers/Data';
-import { Zoom } from "react-awesome-reveal";
+import { Zoom, Fade } from "react-awesome-reveal";
 
 function Projects() {
   const handleclick = (url) => {
@@ -17,7 +17,7 @@ function Projects() {
       </h1>
       </Zoom>
       <div className="project-section">
-        <Zoom cascade triggerOnce>
+        <Fade cascade triggerOnce>
         {projects.map((project, index) => (
           <a
             key={index}
@@ -29,7 +29,7 @@ function Projects() {
             <Projectcard {...project} />
           </a>
         ))}
-        </Zoom>
+        </Fade>
       </div>
     </div>
   );

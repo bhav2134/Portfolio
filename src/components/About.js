@@ -11,12 +11,12 @@ function About() {
         Hey there! I'm a computer science amateur at 
         <span className='uni'> Toronto Metropolitan University</span>, 
         on a wild quest to become the ultimate full-stack maestro and spend my days behind a computer screen.
-        When I'm not tangled up in code, you'll find me struggling to lift iron,
-        strumming my guitar, hiking like a sloth, or diving headfirst into a good book. 
+        When I'm not tangled up in code, you'll find me lifting weights,
+        strumming my guitar, struggling to breath during hikes, or diving headfirst into a good book. 
         </p>
 
         <p className='thrive'>
-        My coding heart dances to the beat of LLM software, quantitative finance, and video game development. 
+        My coding passion lies in the fields of Artificial Intelligence, Frontend Engineering, and Data Engineering. 
         I've got big dreams, and one of them involves unleashing a monstrous open-source project into the world. 
         Think of it as my love letter to the tech universe, 
         complete with lots of code that would need to be polished.
