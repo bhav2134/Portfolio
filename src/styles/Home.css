@@ -144,7 +144,7 @@ body,html {
   color: #38c172;
 }
 
-.home img {
+.profile-image {
   margin-top: 4em;
   margin-right: 60vw;
   border-radius: 100%;
@@ -224,7 +224,7 @@ body,html {
     text-align: center;
   }
 
-  .home img {
+  .profile-image {
     width: 80%;
     max-width: 20em;
     align-items: center;

@@ -21,7 +21,7 @@ function Burger() {
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
-      <ul className={menuOpen ? "open" : ""}>
+      <ul className={`ul ${menuOpen ? 'close' : ''}`}>
         <li>
           <Link to="Home" className='logo' smooth={true} duration={100} onClick={closeMenu}>
             BA
