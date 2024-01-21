@@ -139,7 +139,7 @@ const Languages = [
 
   const projects = [
     {
-      title: 'Stock Analysis',
+      title: 'Stockify',
       description: 'Simplifying Large Stock Data for Easier Trading Information',
       imageSrc: stocks,
       url: 'https://github.com/bhav2134/Stock-Analysis',
