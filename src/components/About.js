@@ -28,8 +28,8 @@ function About() {
         for the entire developer community! More exciting things coming your way soon!
         </p>
         <div>
-          <a href="https://bhav-identity.vercel.app/" target="_blank" className='about-more'>Get To Know Me More <span className='arrow'>🏹</span></a>
-          <a href="https://bhav-blog.vercel.app/" target="_blank" className='blog'>Blog <span className='arrow'>🏹</span></a>
+          <a href="https://bhav-identity.vercel.app/" target="_blank" className='about-more'> Resume <span className='arrow'>🏹</span></a>
+          <a href="https://bhav-blog.vercel.app/" target="_blank" className='blog'> Blog <span className='arrow'>🏹</span></a>
         </div>
       </Zoom>
     </div>
