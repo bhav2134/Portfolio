@@ -5,7 +5,8 @@ import html from '../assets/html.png';
 import CSS from '../assets/CSS.png';
 import javascript from '../assets/javascript.png';
 import lisp from '../assets/Lisp.png';
-import stocks from '../assets/stocks.png';
+import stocks from '../assets/Stocks.jpeg';
+import calandhobbes from '../assets/calandhobbes.jpg';
 import mySQL from '../assets/MySQL.png';
 import nosql from '../assets/nosql.png';
 import firebase from '../assets/Firebase.png';
@@ -145,7 +146,16 @@ const Languages = [
       url: 'https://github.com/bhav2134/Stock-Analysis',
       tools: 'Python, SQL, Excel, Replit',
       backgroundcolor: 'linear-gradient(343deg, rgba(34,193,195,1) 0%, rgba(241,251,34,1) 100%)',
-    },  
+    },
+    {
+      title: 'calandhobbes-quoter',
+      description: 'Creating a RESTful API to provide random quotes from Calvin & Hobbes comic',
+      imageSrc: calandhobbes,
+      url: 'https://github.com/bhav2134/calandhobbes-quoter',
+      tools: 'Python, Flask',
+      backgroundcolor: 'linear-gradient(109.7deg, rgb(202, 50, 50) 5.7%, rgb(252, 195, 12) 92.4%)',
+    },
+
   ];
 
   const certificates = [
