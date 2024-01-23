@@ -4,6 +4,23 @@ import { Zoom } from "react-awesome-reveal";
 
 
 function About() {
+  
+  //const for downloaded the resume pdf file
+  const handleDownloadResume = () => {
+    const pdfUrl = process.env.PUBLIC_URL + '/Bhavdeep_s_Resume.pdf';
+  
+    const downloadLink = document.createElement('a');
+    downloadLink.href = pdfUrl;
+    downloadLink.download = 'Bhavdeep_s_Resume.pdf';
+  
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+  
+    document.body.removeChild(downloadLink);
+  };
+  
+  
+
   return (
     <div id="about" className='about'>
       <Zoom triggerOnce>
@@ -28,8 +45,8 @@ function About() {
         for the entire developer community! More exciting things coming your way soon!
         </p>
         <div>
-          <a href="https://bhav2134.github.io/resume/" target="_blank" className='about-more'> Resume <span className='arrow'>🏹</span></a>
-          <a href="https://bhav-blog.vercel.app/" target="_blank" className='blog'> Blog <span className='arrow'>🏹</span></a>
+          <button onClick={handleDownloadResume} className='about-more'> Resume <span className='arrow'>🏹</span></button>
+          <a href="https://bhav-blog.vercel.app/" target="_blank" rel="noreferrer" className='blog'> Blog <span className='arrow'>🏹</span></a>
         </div>
       </Zoom>
     </div>

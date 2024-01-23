@@ -9,14 +9,6 @@ import { Fade, Zoom } from 'react-awesome-reveal';
 function Contact() {
   const formRef = useRef();
 
-  const handleGithubClick = () => {
-    window.open('https://github.com/bhav2134', '_blank');
-  };
-
-  const handleLinkedinClick = () => {
-    window.open('https://www.linkedin.com/in/bhavdeep-arora-747b52217/', '_blank');
-  };
-
   const sendEmail = async (e) => {
     e.preventDefault();
 
@@ -47,21 +39,21 @@ function Contact() {
         target="_blank"
         rel="noopener noreferrer"
         className="giticon"
-        onClick={handleGithubClick}
       >
         <BsGithub />
         <span>GitHub</span>
       </a>
+
       <a
         href="https://www.linkedin.com/in/bhavdeep-arora-747b52217/"
         target="_blank"
         rel="noopener noreferrer"
         className="linkedicon"
-        onClick={handleLinkedinClick}
       >
         <GrLinkedin />
         <span>LinkedIn</span>
       </a>
+
       <Fade delay={200} triggerOnce>
       <h3 className='email'>
         or send a message to <br /> <span className="my-email">bhavdeepsa@gmail.com</span>
