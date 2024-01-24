@@ -46,7 +46,6 @@ function About() {
         </p>
         <div>
           <button onClick={handleDownloadResume} className='about-more'> Resume <span className='arrow'>🏹</span></button>
-          <a href="https://bhav-blog.vercel.app/" target="_blank" rel="noreferrer" className='blog'> Blog <span className='arrow'>🏹</span></a>
         </div>
       </Zoom>
     </div>
