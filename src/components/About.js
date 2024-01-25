@@ -45,7 +45,7 @@ function About() {
         for the entire developer community! More exciting things coming your way soon!
         </p>
         <div>
-          <button onClick={handleDownloadResume} className='about-more'> Resume <span className='arrow'>🏹</span></button>
+          <button onClick={handleDownloadResume} className='resume'> Resume <span className='arrow'>🏹</span></button>
         </div>
       </Zoom>
     </div>
