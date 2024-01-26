@@ -26,23 +26,14 @@ function About() {
       <Zoom triggerOnce>
         <h2 className='header'>About<span className='dot'>.</span></h2>
         <p className='interests'>
-        Hey there! I'm a computer science amateur at 
-        <span className='uni'> Toronto Metropolitan University</span>, 
-        on a wild quest to become the ultimate full-stack maestro and spend my days behind a computer screen.
-        When I'm not tangled up in code, you'll find me lifting weights,
-        strumming my guitar, struggling to breath during hikes, or diving headfirst into a good book. 
+        Hey there! I'm a computer science enthusiast currently studying at 
+        <span className='uni'> Toronto Metropolitan University</span>, focused on mastering full-stack development with a specialization in Artificial Intelligence, Frontend Engineering, and Data Engineering.
+        Committed to leaving a lasting mark on the tech landscape, I'm currently crafting a groundbreaking open-source project—a testament to my dedication to innovation and collaboration within the developer community.
         </p>
 
         <p className='thrive'>
-        My coding passion lies in the fields of Artificial Intelligence, Frontend Engineering, and Data Engineering. 
-        I've got big dreams, and one of them involves unleashing a monstrous open-source project into the world. 
-        Think of it as my love letter to the tech universe, 
-        complete with lots of code that would need to be polished.
-        <p></p>
+        Beyond coding, I love to lift weights, playing the guitar, go on challenging hikes, and reading a lot of fiction books. Join me on this exciting journey where technology and passion come together, shaping the future possibilities in our ever-changing tech world. Let's work together to redefine what's possible and push the boundaries of innovation.
 
-        I believe in the magic of collaboration and think open source is where it's at. 
-        So, get ready for a rollercoaster ride of innovation and creativity—I'm cooking up something special 
-        for the entire developer community! More exciting things coming your way soon!
         </p>
         <div>
           <button onClick={handleDownloadResume} className='resume'> Resume <span className='arrow'>🏹</span></button>

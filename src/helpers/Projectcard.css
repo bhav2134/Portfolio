@@ -1,9 +1,9 @@
 .project-card {
     border-radius: 1em;
     overflow: hidden;
-    width: 25rem; 
+    width: 22rem; 
     margin-bottom: 3rem;
-    transition: transform 0.3s ease, border-color 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: grid;
     border: 0.2em solid black;
 }
@@ -40,7 +40,7 @@
 
 .project-card:hover {
     cursor: pointer;
-    transform: translateY(-0.5em);
+    transform: translateY(-1em);
 }
 
 a {
@@ -50,7 +50,6 @@ a {
 @media (max-width: 480px) {
     .project-card {
         width: 16em; 
-        height: auto;
     }
 
     .project-card img { 

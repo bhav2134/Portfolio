@@ -8,14 +8,12 @@ body,html {
     color: white;
     height: 100%;
     animation: slideIn 1s;
-    padding-bottom: 5vw;
     color: white;
     text-align: center;
-    padding-right: 5vw;
-    padding-left: 5vw;
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     background: linear-gradient(135deg, #25272d, #46494f);
+    padding: 1rem 5vw 5vw 5vw;
   }
   
   .header {
@@ -23,7 +21,6 @@ body,html {
     padding-left: 5vw; 
     padding-right: 5vw; 
     position: relative;
-    font-weight: 600;
   }
 
   .dot {

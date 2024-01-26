@@ -155,6 +155,15 @@ const Languages = [
       tools: 'Python, Flask',
       backgroundcolor: 'linear-gradient(109.7deg, rgb(202, 50, 50) 5.7%, rgb(252, 195, 12) 92.4%)',
     },
+    {
+      title: 'calandhobbes-quoter',
+      description: 'Creating a RESTful API to provide random quotes from Calvin & Hobbes comic',
+      imageSrc: calandhobbes,
+      url: 'https://github.com/bhav2134/calandhobbes-quoter',
+      tools: 'Python, Flask',
+      backgroundcolor: 'linear-gradient(109.7deg, rgb(202, 50, 50) 5.7%, rgb(252, 195, 12) 92.4%)',
+    },
+
 
   ];
 

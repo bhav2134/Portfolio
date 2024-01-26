@@ -2,34 +2,29 @@
     border-radius: 1.2em;
     display: grid;
     border: 0.2em solid black;
-    width: 25em;
-    height: 30em;
-    flex-wrap: wrap;
+    width: 22em;
     color: black;
 }
 
 .certificate img {
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
-    width: 25em;
+    width: 22em;
     height: auto;
 }
 
 .certificate-name {
     text-align: center;
     width: auto;
+    padding: 0 1em 0em 1em;
     overflow-wrap: break-word;
     font-weight: 400;
 }
 
 .certificate-description {
     text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
     overflow-wrap: break-word;
 }
-
-
 
 @media (max-width: 480px) {
 
