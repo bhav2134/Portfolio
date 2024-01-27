@@ -30,7 +30,7 @@ function Contact() {
   return (
     <div id="contact" className="contact-me">
       <Zoom triggerOnce>
-      <h1 className="letconnect">
+      <h1 className="title">
         Let's Connect<span className='dot'>.</span>
       </h1>
       </Zoom>

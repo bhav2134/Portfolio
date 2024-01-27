@@ -16,14 +16,7 @@ body,html {
   margin-bottom: 10vh; 
 }
 
-.title {
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 900;
-  font-size: 2.5rem;
-}
+
 
 @media screen and (max-width: 480px) {
   

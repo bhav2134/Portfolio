@@ -36,7 +36,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="skills" spy={true} smooth={true} offset={-114} duration={100} className="component">
+          <Link to="skills" spy={true} smooth={true} offset={-120} duration={100} className="component">
             Skills
           </Link>
         </li>
