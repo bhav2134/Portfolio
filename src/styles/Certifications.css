@@ -1,14 +1,10 @@
-  .certificate-title {
-    padding-top: 1rem;
-    font-size: 2.5em;
-  }
-
   .certificate-section {
     display: flex;
     justify-content: center;
     gap: 2em; 
     flex-wrap: wrap;
     margin-bottom: 10vh; 
+    color: white;
   }
 
   .certificate {

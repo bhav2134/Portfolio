@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/About.css';
-import { Zoom } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 
 function About() {
@@ -23,22 +23,17 @@ function About() {
 
   return (
     <div id="about" className='about'>
-      <Zoom triggerOnce>
+      <Slide triggerOnce direction='up' duration={1200}>
         <h2 className='header'>About<span className='dot'>.</span></h2>
         <p className='interests'>
         Hey there! I'm a computer science enthusiast currently studying at 
-        <span className='uni'> Toronto Metropolitan University</span>, focused on mastering full-stack development with a specialization in Artificial Intelligence, Frontend Engineering, and Data Engineering.
-        Committed to leaving a lasting mark on the tech landscape, I'm currently crafting a groundbreaking open-source project—a testament to my dedication to innovation and collaboration within the developer community.
-        </p>
-
-        <p className='thrive'>
-        Beyond coding, I love to lift weights, playing the guitar, go on challenging hikes, and reading a lot of fiction books. Join me on this exciting journey where technology and passion come together, shaping the future possibilities in our ever-changing tech world. Let's work together to redefine what's possible and push the boundaries of innovation.
+        <span className='uni'> Toronto Metropolitan University</span>, focused on mastering full-stack development with a specialization in <span className='career-choices'>Artificial Intelligence, Frontend Engineering, and Data Engineering</span>. When I'm not at my computer, I love to lift weights, play my guitar, go on challenging hikes, or read a lot of fiction books. 
 
         </p>
-        <div>
-          <button onClick={handleDownloadResume} className='resume'> Resume <span className='arrow'>🏹</span></button>
+        <div className='resume-button'>
+          <a onClick={handleDownloadResume} className='resume'> Resume <span className='arrow'>🏹</span></a>
         </div>
-      </Zoom>
+      </Slide>
     </div>
   )
 }

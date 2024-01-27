@@ -122,9 +122,8 @@ body,html {
   margin-right: 0.5em;
   position: relative;
   text-align: right;
-  padding-right: 1em;
+  padding-right: 0.5em;
   z-index: 1;
-  transition: background-color 5s ease;
   animation: text-clip 1.5s ease-in-out;
   font-size: 5vw; 
 }
@@ -132,7 +131,7 @@ body,html {
 .intro {
   margin-top: -3vw; 
   margin-bottom: 1em;
-  padding-right: 1em; 
+  padding-right: 0.5em; 
   text-align: right;
   padding-left: 5em;
   margin-right: 0.5em;
@@ -147,7 +146,7 @@ body,html {
 
 .profile-image {
   margin-top: 4em;
-  margin-right: 60vw;
+  margin-right: 65vw;
   border-radius: 100%;
   width: 100%;
   max-width: 25vw; 
@@ -155,7 +154,7 @@ body,html {
   height: auto; 
   border: 8px solid black;
   position:initial;
-  transition: transform 0.3s ease, border-color 0.3s ease;
+  transition: border-color 0.3s ease;
   animation: text-clip 1.5s ease;
 }
 

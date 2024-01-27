@@ -20,7 +20,7 @@ function Home() {
           </Link>
         </li>
         <li>
-          <Link to="skills" spy={true} smooth={true} offset={-120}  duration={100}>
+          <Link to="skills" spy={true} smooth={true} offset={-114}  duration={100}>
             Skills
           </Link>
         </li>
