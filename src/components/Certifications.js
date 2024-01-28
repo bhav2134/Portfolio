@@ -9,7 +9,7 @@ function Certifications() {
     <div id="certifications" className='certifactions'>
       <Zoom triggerOnce>
       <h1 className='title'>
-        Certifications<span className='dot'>.</span>
+        Certificates<span className='dot'>.</span>
       </h1>
         <div className="certificate-section">
           <Fade cascade triggerOnce>

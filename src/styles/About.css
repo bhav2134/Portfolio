@@ -62,7 +62,6 @@ body,html {
     font-size: 1.5rem;
     color: #38c172;
     transition: all 0.2s ease; 
-    background-color: transparent;
   }
   
   .resume:hover {

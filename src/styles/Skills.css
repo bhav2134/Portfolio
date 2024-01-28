@@ -8,7 +8,8 @@ body,html {
   font-weight: 400;
 }
 
-.skills-section, .database-section {
+.skills-section, 
+.database-section {
   display: flex;
   justify-content: center;
   gap: 2vw; 

@@ -106,7 +106,7 @@ body,html {
 }
 
 .home {
-  border-top: 1em solid #38c172;
+  border-top: 1.25rem solid #38c172;
   height: 100vh;
   position: relative;
   padding-right: 0; 
@@ -119,10 +119,10 @@ body,html {
 .text {
   text-align: center; 
   margin-top: -5em;
-  margin-right: 0.5em;
+  margin-right: 0.75em;
   position: relative;
   text-align: right;
-  padding-right: 0.5em;
+  padding: 0 0.5em 0 5em; 
   z-index: 1;
   animation: text-clip 1.5s ease-in-out;
   font-size: 5vw; 
@@ -131,9 +131,8 @@ body,html {
 .intro {
   margin-top: -3vw; 
   margin-bottom: 1em;
-  padding-right: 0.5em; 
+  padding: 0 0.75em 0 5em; 
   text-align: right;
-  padding-left: 5em;
   margin-right: 0.5em;
   transition: background-color 5s ease;
   animation: text-clip 1.5s ease-in-out;
@@ -146,7 +145,7 @@ body,html {
 
 .profile-image {
   margin-top: 4em;
-  margin-right: 65vw;
+  margin-right: 60vw;
   border-radius: 100%;
   width: 100%;
   max-width: 25vw; 

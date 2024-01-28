@@ -17,6 +17,7 @@
     text-decoration: none;
     font-size: 25px;
     color: white;
+    transition: all 0.5s ease;
   }
   
 
@@ -28,10 +29,8 @@
   }
 
   .giticon:hover {
-    color: 	#46494f;
-    text-shadow: none;
+    color: 	#6E5494;
     transform: scale(1.1);
-    transition: 0.3s;
   }
   
   .giticon span,
