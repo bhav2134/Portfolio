@@ -42,6 +42,7 @@
 
   .email {
     font-weight: 400;
+    overflow-wrap: break-word;
   }
 
   .my-email {

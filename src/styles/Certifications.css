@@ -7,6 +7,10 @@
     color: white;
   }
 
+  .title {
+    overflow-wrap: break-word;
+  }
+
   .certificate {
     transition: all 0.3s;
   }

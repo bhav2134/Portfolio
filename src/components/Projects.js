@@ -5,9 +5,6 @@ import { Languages, Databases, Frameworks, Clouds, Others, projects,certificates
 import { Zoom, Fade } from "react-awesome-reveal";
 
 function Projects() {
-  const handleclick = (url) => {
-    window.open(url, '_blank');
-  };
 
   return (
     <div id="projects" className='projects'>
@@ -24,7 +21,6 @@ function Projects() {
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() => handleclick(project.url)}
           >
             <Projectcard {...project} />
           </a>

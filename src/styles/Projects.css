@@ -16,6 +16,12 @@ body {
     padding-top: 1rem;
     color: white;
   }
+
+  @media (max-width: 800px) {
+    .project-section {
+      gap: 0em;
+    }
+  }
   
 
   

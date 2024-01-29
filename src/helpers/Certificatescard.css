@@ -1,5 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .certificate {
     border-radius: 1.2em;
+    overflow: hidden;
     display: grid;
     border: 0.2em solid black;
     width: 22em;
@@ -9,7 +15,7 @@
 .certificate img {
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
-    width: 22em;
+    width: inherit;
     height: auto;
 }
 
@@ -30,7 +36,6 @@
 
     .certificate {
         width: 16em;
-        height: auto;
     }
 
     .certificate img {
