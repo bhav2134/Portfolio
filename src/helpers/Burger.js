@@ -15,7 +15,7 @@ function Burger() {
   };
 
   return (
-    <div className="navbar-burger">
+    <nav className="navbar-burger">
       <div className={`menu ${menuOpen ? 'close' : ''}`} onClick={toggleMenu}>
         <span className="bar"></span>
         <span className="bar"></span>
@@ -53,7 +53,7 @@ function Burger() {
           </Link>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }
 

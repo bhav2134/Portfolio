@@ -31,7 +31,7 @@ ul {
 }
 
 .navbar-burger.close {
-    justify-content: space-evenly;
+    justify-content:center;
     position: fixed;
     display: flex;
     height: 100%;
@@ -40,17 +40,16 @@ ul {
     list-style: none;
     flex-direction: column;
     background-color: rgba(56, 193, 114, 1); 
-    top: 0;
     margin-top: 0;
     animation: slideLeft 0.5s ease-out;
-    padding-left: 5vw;
+    padding-left: 2vw;
 }
 
 .navbar-burger li {
     position: relative;
     width: max-content;
-    font-size: 1.75em;
-    overflow-wrap: break-word;
+    margin-bottom: 0.5em;
+    font-size: 1.8em;
 }
 
 .navbar-burger li a::before {
@@ -58,7 +57,7 @@ ul {
     background-color: rgb(253, 230, 138);
     position: absolute;
     left: 0;
-    bottom: 16px;
+    bottom: 12px;
     width: 100%;
     height: 12px;
     z-index: -1;
@@ -66,19 +65,9 @@ ul {
 }
 
 .navbar-burger li a:hover::before {
-    height: 65%;
+    bottom: 0;
+    height: 100%;
   }
-  
-
-.navbar-burger .logo {
-    border-radius: 0.25em;
-}
-
-.navbar-burger .connect-link {
-    border-radius: 0.25em;
-    font-weight: bold;
-    transition: all 0.3s ease;
-}
 
 .menu.close span:nth-child(1) {
     transform: rotate(45deg) translate(0.5em, 0.4em);
