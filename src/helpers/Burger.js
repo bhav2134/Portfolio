@@ -21,35 +21,35 @@ function Burger() {
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
-      <ul className={`ul ${menuOpen ? 'close' : ''}`}>
+      <ul className={`navbar-burger ${menuOpen ? 'close' : ''}`}>
         <li>
           <Link to="Home" className='logo' smooth={true} duration={100} onClick={closeMenu}>
-            BA
+            HOME
           </Link>
         </li>
         <li>
           <Link to="about" smooth={true} duration={100} onClick={closeMenu}>
-            About
+            ABOUT
           </Link>
         </li>
         <li>
           <Link to="skills" spy={true} smooth={true} duration={100} onClick={closeMenu}>
-            Skills
+            SKILLS
           </Link>
         </li>
         <li>
           <Link to="projects" spy={true} smooth={true} duration={100} onClick={closeMenu}>
-            Projects
+            PROJECTS
           </Link>
         </li>
         <li>
           <Link to="certifications" spy={true} smooth={true} duration={100} onClick={closeMenu}>
-            Certificates
+            CERTIFICATES
           </Link>
         </li>
         <li>
           <Link to="contact" className="connect-link" spy={true} smooth={true} duration={100} onClick={closeMenu}>
-            Contact Me
+            CONTACT ME
           </Link>
         </li>
       </ul>

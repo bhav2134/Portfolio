@@ -60,7 +60,6 @@ body,html {
   }
 
   .navbar a:hover::before {
-    bottom: 0;
     height: 100%;
   }
   
