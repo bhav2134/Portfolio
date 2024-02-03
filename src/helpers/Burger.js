@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import { Divide as Hamburger } from 'hamburger-react'
+import { Squeeze as Hamburger } from 'hamburger-react'
 import './Burger.css';
 
 function Burger() {
