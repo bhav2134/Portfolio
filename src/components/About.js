@@ -31,7 +31,7 @@ function About() {
 
         </p>
         <div className='resume-button'>
-          <button onClick={handleDownloadResume} className='resume'> VIEW MY RESUME </button>
+          <button onClick={handleDownloadResume} className='resume'> resume </button>
         </div>
       </Slide>
     </div>

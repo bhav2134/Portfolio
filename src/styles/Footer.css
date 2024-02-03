@@ -1,11 +1,11 @@
 .footer-line {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 0 1em 0 1em;
 }
 
 .textinfooter {
   font-weight: 400;
-}
+  font-family: 'Poppins', sans-serif;
+  }
 
 @media screen and (max-width: 600px) {
     .footer {

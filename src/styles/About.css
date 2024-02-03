@@ -52,13 +52,11 @@ body,html {
 
   .resume {
     box-shadow: inset 0 0 0 0 #38c172;
-    display: inline-block;
     border: 4px solid #38c172;
-    border-radius: 0.25em;
     padding: 0.3em;
     transition: all 0.2s ease;
-    font-weight: 900;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     color: #38c172;
     transition: all 0.2s ease; 
@@ -68,6 +66,7 @@ body,html {
   
   .resume:hover {
     box-shadow: inset 0 -100px 0 0 #38c172;
+    border: 4px solid #38c172;
     cursor: pointer;
     color: #25272d;
   }
