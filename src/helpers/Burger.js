@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-
+import { Divide as Hamburger } from 'hamburger-react'
 import './Burger.css';
 
 function Burger() {
@@ -16,40 +16,38 @@ function Burger() {
 
   return (
     <nav className="navbar-burger">
-      <div className={`menu ${menuOpen ? 'close' : ''}`} onClick={toggleMenu}>
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
+      <div className={`menu ${menuOpen ? 'open' : ''}`}>
+        <Hamburger toggled={menuOpen} toggle={toggleMenu} direction="right" duration={0.5} rounded hideOutline={true} />
       </div>
-      <ul className={`navbar-burger ${menuOpen ? 'close' : ''}`}>
+      <ul className={`navbar-burger ${menuOpen ? 'open' : ''}`}>
         <li>
           <Link to="Home" className='logo' smooth={true} duration={100} onClick={closeMenu}>
-            HOME
+            Home
           </Link>
         </li>
         <li>
           <Link to="about" smooth={true} duration={100} onClick={closeMenu}>
-            ABOUT
+            About
           </Link>
         </li>
         <li>
           <Link to="skills" spy={true} smooth={true} duration={100} onClick={closeMenu}>
-            SKILLS
+            Skills
           </Link>
         </li>
         <li>
           <Link to="projects" spy={true} smooth={true} duration={100} onClick={closeMenu}>
-            PROJECTS
+            Projects
           </Link>
         </li>
         <li>
           <Link to="certifications" spy={true} smooth={true} duration={100} onClick={closeMenu}>
-            CERTIFICATES
+            Certificates
           </Link>
         </li>
         <li>
           <Link to="contact" className="connect-link" spy={true} smooth={true} duration={100} onClick={closeMenu}>
-            CONTACT ME
+            Contact Me
           </Link>
         </li>
       </ul>
