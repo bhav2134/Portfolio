@@ -4,12 +4,10 @@
   width: 8em;
   padding: 0em 0.5em 0em 1em;
   border: 0.1em solid black;
-  border-radius: 32px;
+  border-radius: 0.5em;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-
 
 .skills-card img {
   width: 2em;

@@ -27,6 +27,7 @@ body,html {
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", 
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   transition: box-shadow 0.5s ease, color 0.5s ease;
+  font-size: 1.75em;
 }
 
 .navbar-home a:hover {
