@@ -23,7 +23,7 @@ function About() {
 
   return (
     <div id="about" className='about'>
-      <Slide triggerOnce direction='up' duration={1200}>
+      <Slide triggerOnce direction='left' duration={1200}>
         <h2 className='title'>About<span className='dot'>.</span></h2>
         <p className='interests'>
         Hey there! I'm a computer science enthusiast currently studying at 
