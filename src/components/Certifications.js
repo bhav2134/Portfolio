@@ -7,10 +7,11 @@ import { Zoom, Fade } from "react-awesome-reveal";
 function Certifications() {
   return (
     <div id="certifications" className='certifactions'>
-      <Zoom triggerOnce>
+      <Fade direction='up' triggerOnce>
       <h1 className='title'>
         Certificates<span className='dot'>.</span>
       </h1>
+      </Fade>
         <div className="certificate-section">
           <Fade cascade triggerOnce>
           {certificates.map((certificate, index) => (
@@ -18,7 +19,6 @@ function Certifications() {
         ))}
         </Fade>
         </div>
-        </Zoom>
     </div>
   )
 }

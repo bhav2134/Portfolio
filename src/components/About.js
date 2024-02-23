@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/About.css';
-import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 
 function About() {
@@ -23,7 +23,7 @@ function About() {
 
   return (
     <div id="about" className='about'>
-      <Slide triggerOnce direction='left' duration={1200}>
+      <Fade triggerOnce direction='up' duration={1200}>
         <h2 className='title'>About<span className='dot'>.</span></h2>
         <p className='interests'>
         Hey there! I'm a computer science enthusiast currently studying at 
@@ -33,7 +33,7 @@ function About() {
         <div className='resume-button'>
           <button onClick={handleDownloadResume} className='resume'> resume </button>
         </div>
-      </Slide>
+      </Fade>
     </div>
   )
 }

@@ -29,11 +29,11 @@ function Contact() {
 
   return (
     <div id="contact" className="contact-me">
-      <Zoom triggerOnce>
+      <Fade direction='down' triggerOnce>
       <h1 className="title">
         Let's Connect<span className='dot'>.</span>
       </h1>
-      </Zoom>
+      </Fade>
       <a
         href="https://github.com/bhav2134"
         target="_blank"
@@ -54,7 +54,7 @@ function Contact() {
         <span>LinkedIn</span>
       </a>
 
-      <Fade delay={200} triggerOnce>
+      <Fade direction='up' delay={200} triggerOnce>
       <h3 className='email'>
         or send a message to <br /> <span className="my-email">bhavdeepsa@gmail.com</span>
       </h3>

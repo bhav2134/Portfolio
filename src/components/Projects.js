@@ -8,13 +8,13 @@ function Projects() {
 
   return (
     <div id="projects" className='projects'>
-      <Zoom triggerOnce>
+      <Fade direction='up' triggerOnce>
       <h1 className='title'>
         Projects<span className='dot'>.</span>
       </h1>
-      </Zoom>
+      </Fade>
       <div className="project-section">
-        <Fade cascade triggerOnce>
+        <Zoom cascade triggerOnce>
         {projects.map((project, index) => (
           <a
             key={index}
@@ -25,7 +25,7 @@ function Projects() {
             <Projectcard {...project} />
           </a>
         ))}
-        </Fade>
+        </Zoom>
       </div>
     </div>
   );
