@@ -24,8 +24,8 @@ import git from '../assets/git.png';
 import github from '../assets/github.png';
 import rust from '../assets/rust.png';
 import typescript from '../assets/typescript.png';
-import CS50 from '../assets/CS50.png';
-import freecodecamppython from '../assets/Freecodecampcertificate.png';
+import harvardlogo from '../assets/harvardlogo.png';
+import freecodecamplogo from '../assets/freecodecamp.png';
 
 const Languages = [
     {
@@ -160,16 +160,16 @@ const Languages = [
   const certificates = [
     {
       title: 'Harvard CS50: Introduction to programming',
-      imageSrc: CS50,
+      imageSrc: harvardlogo,
       description: 'Languages & Tools Learned: C, Python, SQL, HTML, CSS, JavaScript, Flask (Python web framework), Scratch, Git',
-      url: 'https://pll.harvard.edu/course/cs50-introduction-computer-science',
+      url: 'https://certificates.cs50.io/5837b167-1735-40e8-8010-3e4edeedab8d.pdf?size=letter',
       backgroundcolor: 'linear-gradient(343deg, rgba(255,175,189,1) 0%, rgba(255,195,160,1) 100%)',
     },
     {
       title: 'freeCodeCamp: Scientific Computing with python',
-      imageSrc: freecodecamppython,
+      imageSrc: freecodecamplogo,
       description: 'Languages & Tools Learned: Python, NumPy, Pandas, Matplotlib, SciPy, SymPy, Jupyter Notebooks',
-      url: 'https://www.freecodecamp.org/learn/scientific-computing-with-python/',
+      url: 'https://www.freecodecamp.org/certification/fcc37f3aa4a-4ffd-44be-b44f-55b59d1db431/scientific-computing-with-python-v7',
       backgroundcolor: 'linear-gradient(to right, #6ea3fc, #93c5fd)',    
     },
   ]
