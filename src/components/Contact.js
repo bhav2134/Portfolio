@@ -45,7 +45,7 @@ function Contact() {
       </a>
 
       <a
-        href="https://www.linkedin.com/in/bhavdeep-arora-747b52217/"
+        href="https://www.linkedin.com/in/bhavdeeparora/"
         target="_blank"
         rel="noopener noreferrer"
         className="linkedicon"
