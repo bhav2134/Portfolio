@@ -18,7 +18,7 @@ function Skills() {
           <Skillscard key={index} {...skills} />
         ))}
         </div>
-        <h2>Databses</h2>
+        <h2>Databases</h2>
         <div className="database-section">
           {Databses.map((skills, index) => (
           <Skillscard key={index} {...skills} />

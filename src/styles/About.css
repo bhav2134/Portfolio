@@ -72,6 +72,10 @@ body,html {
     color: #25272d;
   }
 
+  .download {
+    transform: rotate(180deg);
+  }
+
   @media screen and (max-width: 480px) {
 
     .resume {
