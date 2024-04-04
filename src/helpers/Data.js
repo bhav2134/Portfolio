@@ -26,6 +26,7 @@ import rust from '../assets/rust.png';
 import typescript from '../assets/typescript.png';
 import harvardlogo from '../assets/harvardlogo.png';
 import freecodecamplogo from '../assets/freecodecamp.png';
+import bugreport from '../assets/bug-report.png';
 
 const Languages = [
     {
@@ -148,12 +149,20 @@ const Languages = [
       backgroundcolor: 'linear-gradient(343deg, rgba(34,193,195,1) 0%, rgba(241,251,34,1) 100%)',
     },
     {
-      title: 'calandhobbes-quoter',
+      title: 'Calvin & Hobbes Quoter',
       description: 'Creating a RESTful API to provide random quotes from Calvin & Hobbes comic',
       imageSrc: calandhobbes,
       url: 'https://github.com/bhav2134/calandhobbes-quoter',
       tools: 'Python, Flask',
       backgroundcolor: 'linear-gradient(109.7deg, rgb(202, 50, 50) 5.7%, rgb(252, 195, 12) 92.4%)',
+    },
+    {
+      title: 'Bug Report App',
+      description: 'A platform for users to submit and track bug reports for software applications',
+      imageSrc: bugreport,
+      url: 'https://github.com/bhav2134/calandhobbes-quoter',
+      tools: 'Python, Flask, SQLite, Javascript, HTML, CSS',
+      backgroundcolor: 'linear-gradient(to right, #87CEEB, #00BFFF)',
     },
   ];
 
