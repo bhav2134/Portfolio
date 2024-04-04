@@ -160,7 +160,7 @@ const Languages = [
       title: 'Bug Report App',
       description: 'A platform for users to submit and track bug reports for software applications',
       imageSrc: bugreport,
-      url: 'https://github.com/bhav2134/calandhobbes-quoter',
+      url: 'https://github.com/bhav2134/bug-report',
       tools: 'Python, Flask, SQLite, Javascript, HTML, CSS',
       backgroundcolor: 'linear-gradient(to right, #87CEEB, #00BFFF)',
     },
