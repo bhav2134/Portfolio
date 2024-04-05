@@ -27,6 +27,11 @@ import typescript from '../assets/typescript.png';
 import harvardlogo from '../assets/harvardlogo.png';
 import freecodecamplogo from '../assets/freecodecamp.png';
 import bugreport from '../assets/bug-report.png';
+import smalltalk from '../assets/smalltalk.jpg';
+import sqlite from '../assets/sqlite.png';
+import express from '../assets/express.png';
+import django from '../assets/Django.png';
+import go from '../assets/go.png';
 
 const Languages = [
     {
@@ -62,12 +67,20 @@ const Languages = [
       imageSrc: lisp
     },
     {
+      title: 'Smalltalk',
+      imageSrc: smalltalk
+    },
+    {
         title: 'Elixer',
         imageSrc: elixer,
     },
     {
         title: 'Haskell',
         imageSrc: haskell,
+    },
+    {
+      title: 'Go',
+      imageSrc: go,
     },
     {
       title: 'Rust',
@@ -85,12 +98,24 @@ const Languages = [
         imageSrc: nosql,
     },
     {
+      title: 'SQLite',
+      imageSrc: sqlite,
+    },
+    {
         title: 'Firebase',
         imageSrc: firebase,
     },
     {
         title: 'MongoDB',
         imageSrc: MongoDB,
+    },
+    {
+      title: 'AWS',
+      imageSrc: aws,
+    },
+    {
+      title: 'Azure',
+      imageSrc: azure,
     },
     
   ];
@@ -112,17 +137,17 @@ const Languages = [
         title: 'Flask',
         imageSrc: flask,
     },
+    {
+      title: 'Django',
+      imageSrc: django,
+    },
+    {
+      title: 'express',
+      imageSrc: express,
+    },
   ];
 
   const clouds = [
-    {
-        title: 'AWS',
-        imageSrc: aws,
-    },
-    {
-        title: 'Azure',
-        imageSrc: azure,
-    },
   ];
   const others = [
     {

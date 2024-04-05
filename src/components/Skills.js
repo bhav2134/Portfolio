@@ -30,12 +30,6 @@ function Skills() {
           <Skillscard key={index} {...skills} />
         ))}
         </div>
-        <h2>Clouds</h2>
-        <div className="database-section">
-          {clouds.map((skills, index) => (
-          <Skillscard key={index} {...skills} />
-        ))}
-        </div>
         <h2>Others</h2>
         <div className="database-section">
           {others.map((skills, index) => (
