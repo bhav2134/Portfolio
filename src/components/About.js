@@ -19,15 +19,13 @@ function About() {
     document.body.removeChild(downloadLink);
   };
   
-  
-
   return (
     <div id="about" className='about'>
       <Fade triggerOnce direction='up' duration={1200}>
         <h2 className='title'>About<span className='dot'>.</span></h2>
         <p className='interests'>
         Hey there! I'm a computer science enthusiast currently studying at 
-        <span className='uni'> Toronto Metropolitan University</span>, focused on mastering full-stack development with a specialization in <span className='career-choices'>Artificial Intelligence, Frontend Engineering, and Data Engineering</span>. When I'm not at my computer, I love to lift weights, play my guitar, cycle down mountainous terrains, go on challenging hikes, or read a lot of fiction books. 
+        <span className='uni'> Toronto Metropolitan University (Formerly known as Ryerson Univeristy) </span>, focused on mastering full-stack development with a specialization in <span className='career-choices'>Artificial Intelligence, Frontend Engineering, and Data Engineering</span>. When I'm not at my computer, I love to lift weights, play my guitar, cycle down mountainous terrains, go on challenging hikes, or read a lot of fiction books. 
         </p>
         <div className='resume-button'>
           <button onClick={handleDownloadResume} className='resume' title='Download resume'> resume </button>

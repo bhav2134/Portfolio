@@ -14,7 +14,7 @@ function Projects() {
       </h1>
       </Fade>
       <div className="project-section">
-        <Zoom cascade triggerOnce>
+        <Zoom triggerOnce>
         {projects.map((project, index) => (
           <a
             key={index}
