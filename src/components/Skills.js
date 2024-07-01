@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Skills.css';
 import Skillscard from '../helpers/Skillscard';
-import { Languages,Databses,Frameworks,clouds,others, projects,certificates } from '../helpers/Data';
+import { Languages,Databses,Frameworks,others, } from '../helpers/Data';
 import { Fade,Zoom } from "react-awesome-reveal";
 
 

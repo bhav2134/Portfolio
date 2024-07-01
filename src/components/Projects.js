@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Projects.css';
 import Projectcard from '../helpers/Projectcard';
-import { Languages, Databases, Frameworks, Clouds, Others, projects,certificates } from '../helpers/Data';
+import { projects } from '../helpers/Data';
 import { Zoom, Fade } from "react-awesome-reveal";
 
 function Projects() {

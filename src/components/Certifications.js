@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/Certifications.css';
 import Certificatescard from '../helpers/Certificatescard';
-import { Languages,Databses,Frameworks,clouds,others,projects,certificates } from '../helpers/Data';
-import { Zoom, Fade } from "react-awesome-reveal";
+import { certificates } from '../helpers/Data';
+import { Fade } from "react-awesome-reveal";
 
 function Certifications() {
   return (
