@@ -14,9 +14,11 @@ function Skills() {
       <Fade triggerOnce>
       <h2>Languages</h2>
         <div className="skills-section">
+          <Fade triggerOnce duration={300}>
           {Languages.map((skills, index) => (
           <Skillscard key={index} {...skills} />
         ))}
+          </Fade>
         </div>
         <h2>Databases</h2>
         <div className="database-section">

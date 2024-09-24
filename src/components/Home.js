@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-scroll";
 import '../styles/Home.css';
-import ProfilePic from '../assets/ProfilePicture.jpg';
+import ProfilePic from '../assets/ProfilePic.jpeg';
 import { Zoom } from "react-awesome-reveal";
 
 function Home() {
