@@ -1,7 +1,8 @@
 .project-card {
     border-radius: 1em;
     overflow: hidden;
-    width: 22rem; 
+    width: 20rem; 
+    height: 25rem;
     margin-bottom: 3rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: grid;
@@ -30,6 +31,8 @@
     font-style: italic;
     font-size: 1em;
     font-weight: 400;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .project-card img {

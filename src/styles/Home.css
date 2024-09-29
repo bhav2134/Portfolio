@@ -15,7 +15,7 @@ body,html {
 }
 
 .navbar-home li  {
-  margin-left: 3em;
+  margin-left: 2.75em;
 }
 
 .navbar-home li a {
@@ -27,7 +27,7 @@ body,html {
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", 
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   transition: box-shadow 0.5s ease, color 0.5s ease;
-  font-size: 1.75em;
+  font-size: 2vw; /*primary font size for navbar elements */
 }
 
 .navbar-home a:hover {
@@ -51,7 +51,6 @@ body,html {
   height: 100%;
 }
 
-
 .navbar-home .connect-link {
   box-shadow: inset 0 0 0 0 black;
   border: 4px solid black;
@@ -61,6 +60,7 @@ body,html {
   padding-left: 0.5em;
   padding-right: 0.5em;
   transition: all 0.3s ease;
+  margin-right: 1em;
 }
 
 .navbar-home .connect-link:hover {
@@ -103,7 +103,7 @@ body,html {
   border: 4px solid black;
   border-radius: 0.25em;
   font-style: normal;
-  margin-left: -20px;
+  margin-left: 1em;
 }
 
 .home {
@@ -145,7 +145,7 @@ body,html {
 }
 
 .profile-image {
-  margin-top: 4em;
+  margin-top: 3em;
   margin-right: 60vw;
   border-radius: 100%;
   width: 100%;
@@ -173,11 +173,7 @@ body,html {
 }
 
 
-@media screen and (max-width: 88em) {
-    .navbar-home li a {
-      font-size: 2vw;
-    }
-}
+
 
 @media screen and (max-width: 55em) {
 
