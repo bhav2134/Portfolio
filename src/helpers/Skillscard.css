@@ -21,7 +21,7 @@
 
 @media (max-width: 480px) {
   .skills-card {
-    width: 7em;
+    width: auto;
     border: 0.1em solid black;
     border-radius: 0.5em;
     padding-bottom: 0px;
@@ -33,9 +33,12 @@
   .skills-card img {
     width: 2em;
     border-radius: 8px;
+    padding: 0 0.5em 0 0;
+
   }
 
   .skillstitle {
     font-size: 1em;
+    padding: 0 1em 0 0;
   }
 }
