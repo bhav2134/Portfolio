@@ -8,7 +8,7 @@ body {
     overflow: hidden;
     display: grid;
     border: 0.2em solid black;
-    width: 20em;
+    width: 16em;
     height: auto;
     color: black;
 }

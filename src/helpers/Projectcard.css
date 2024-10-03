@@ -1,7 +1,7 @@
 .project-card {
     border-radius: 1em;
     overflow: hidden;
-    width: 17.5em; 
+    width: 16em; 
     height: auto;
     margin-bottom: 3rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -52,7 +52,7 @@ a {
 
 @media (max-width: 480px) {
     .project-card {
-        width: 17.5em; 
+        width: 16em; 
     }
 
     .project-card img { 
