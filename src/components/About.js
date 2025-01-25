@@ -25,7 +25,7 @@ function About() {
         <h2 className='title'>About<span className='dot'>.</span></h2>
         <p className='interests'>
         Hey there! I'm a computer science enthusiast currently studying at 
-        <span className='uni'> Toronto Metropolitan University (Formerly known as Ryerson Univeristy) </span>, focused on mastering full-stack development with a specialization in <span className='career-choices'> Artificial Intelligence and Data Engineering</span>. When I'm not at my computer, I love lifting weights, playing rugby, strumming my guitar, cycling down mountainous terrains, going on challenging hikes, and diving into fiction books. 
+        <span className='uni'> Toronto Metropolitan University (Formerly known as Ryerson Univeristy) </span>, focused on mastering full-stack development with a specialization in <span className='career-choices'> Artificial Intelligence and Data Engineering</span>. I love exploring how emerging technologies can solve real-world problems and continuously challenge myself with new projects.
         </p>
         <div className='resume-button'>
           <button onClick={handleDownloadResume} className='resume' title='Download resume'> resume </button>
